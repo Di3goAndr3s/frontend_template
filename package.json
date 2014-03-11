@@ -1,0 +1,24 @@
+{
+  "name": "generator-imaginamos",
+  "version": "0.0.1",
+  "description": "generador yaoman imaginamos",
+  "main": "index.js",
+  "scripts": {
+    "test": "mitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Di3goAndr3s/frontend_template.git"
+  },
+  "keywords": [
+    "imaginamos",
+    "less",
+    "bootstrap"
+  ],
+  "author": "Diego",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/Di3goAndr3s/frontend_template/issues"
+  },
+  "homepage": "https://github.com/Di3goAndr3s/frontend_template"
+}
