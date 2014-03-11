@@ -1,52 +1,56 @@
 'use strict';
-var path = require('path');
 var util = require('util');
+var path = require('path');
 var yeoman = require('yeoman-generator');
+var chalk = require('chalk');
 
 
-var Generator = module.exports = function Generator(args, options) {
-  yeoman.generators.Base.apply(this, arguments);
+var generator-imaginamos = yeoman.generators.Base.extend({
+  init: function () {
+    this.pkg = require('../package.json');
 
-  this.option('format', {
-    desc: 'Select one of `css`, `sass`, `less`, `stylus` for the bootstrap format.',
-    type: String
-  });
+    this.on('end', function () {
+      if (!this.options['skip-install']) {
+        this.installDependencies();
+      }
+    });
+  },
 
-  this.format = options.format;
-};
+  askFor: function () {
+    var done = this.async();
 
-util.inherits(Generator, yeoman.generators.Base);
+    // have Yeoman greet the user
+    this.log(this.yeoman);
 
-Generator.prototype.askFor = function askFor(argument) {
-  if (this.format) {
-    // Skip if already set.
-    return;
+    // replace it with a short and sweet description of your generator
+    this.log(chalk.magenta('You\'re using the fantastic Blog generator.'));
+
+    var prompts = [{
+      type: 'confirm',
+      name: 'someOption',
+      message: 'Would you like to enable this option?',
+      default: true
+    }];
+
+    this.prompt(prompts, function (props) {
+      this.someOption = props.someOption;
+
+      done();
+    }.bind(this));
+  },
+
+  app: function () {
+    this.mkdir('app');
+    this.mkdir('app/templates');
+
+    this.copy('_package.json', 'package.json');
+    this.copy('_bower.json', 'bower.json');
+  },
+
+  projectfiles: function () {
+    this.copy('editorconfig', '.editorconfig');
+    this.copy('jshintrc', '.jshintrc');
   }
+});
 
-  var cb = this.async();
-  var formats = ['css', 'sass', 'less', 'stylus'];
-  var prompts = [{
-    type: 'list',
-    name: 'format',
-    message: 'In what format would you like the Bootstrap stylesheets?',
-    choices: formats
-  }];
-
-  this.prompt(prompts, function (props) {
-    this.format = props.format;
-
-    cb();
-  }.bind(this));
-};
-
-Generator.prototype.bootstrapFiles = function bootstrapFiles() {
-  // map format -> package name
-  var packages = {
-    css: 'bootstrap.css',
-    sass: 'git://github.com/twbs/bootstrap-sass.git#v3.1.0',
-    less: 'components-bootstrap',
-    stylus: 'bootstrap-stylus'
-  };
-
-  this.bowerInstall(packages[this.format], { save: true });
-};
+module.exports = generator-imaginamos;
