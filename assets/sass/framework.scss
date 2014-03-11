@@ -1,0 +1,52 @@
+//TRADUCCIÓN
+
+.left {
+ float: left;
+}
+.right {
+ float: right;
+}
+
+.block {
+  display: block;
+}
+.none {
+  display: none;
+}
+.hide {
+ display: none;
+ visibility: hidden;
+}
+
+.relative {position: relative;}
+.absolute {position: absolute;}
+
+.fondo(@valor) {background:@valor;}
+//.fondoima(@valor) {background:@valor;}
+//.bg-img(@img) { background-image:url("@{img}"); }
+
+.z(@valor) {z-index: @valor;}
+
+.center {text-align: center;}
+
+//MIXINS
+
+.br (@valor: .5rem) {
+ border-radius: @valor
+}
+.br-custom (@valor1: .5rem, @valor2: .5rem, @valor3: .5rem, @valor4: .5rem) {
+ border-radius: @valor1 @valor2 @valor3 @valor4;
+}
+ .centrado (@valor1: 0rem, @valor2: 0rem, ) {
+ margin: @valor1 auto @valor2;
+}
+
+ .transition (@valor: 0.2s) {
+ transition: all ease-out @valor;
+}
+
+.fw(@valor: 400;) {font-weight: @valor;}
+.fs(@valor: 1.4rem;){font-size: @valor;}
+
+
+.mayuscula{text-transform: uppercase;}

@@ -1,0 +1,39 @@
+
+.tipo {
+ color: gris-dark1;
+ font-size: 1.4rem;
+ font-family: 'PT Sans', sans-serif;
+ text-rendering: optimizelegibility;
+}
+
+.borde (@valor: @borde-gris) {
+ border: thin solid @valor;
+}
+
+.amarillo (@valor: .8) {
+background-color: rgba(232, 145, 4, @valor);
+}
+.azul(@valor: .8) {
+background-color: rgba(57, 169, 220, @valor);
+}
+.verde(@valor: .8) {
+background-color: rgba(0, 79, 91, @valor);
+}
+.verde-dark(@valor: .8) {
+background-color: rgba(40, 166, 166, @valor);
+}
+
+.c-amarillo (@valor: 1) {
+color: rgba(232,145,4,@valor);
+}
+.c-azul(@valor: 1) {
+color: rgba(57,169,220,@valor);
+}
+.c-verde(@valor: 1) {
+color: rgba(0,79,91,@valor);
+}
+.c-verde-dark(@valor: 1) {
+color: rgba(40,166,166,@valor);
+}
+
+.white {color: white;}

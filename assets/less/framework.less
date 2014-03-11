@@ -1,0 +1,127 @@
+
+body {
+ .tipo;
+ .cero;
+}
+
+p {
+ line-height: normal;
+ margin: 0 0 1rem;
+}
+
+p:last-child { margin: 0;
+}
+
+
+a{.block;
+.reset;
+.pointer;
+&:hover {}
+&:active{}
+
+}
+
+.tipo {
+ color: @gris;
+  font-family: 'Source Sans Pro', sans-serif;
+
+.fs;
+}
+
+.tipo2 {
+font-family: 'Open Sans Condensed', sans-serif;
+.fs;
+color: @gris-light1;
+}
+
+//TRADUCCIÓN
+
+.left {
+ float: left;
+}
+.right {
+ float: right;
+}
+
+.block {
+  display: block;
+}
+.none {
+  display: none;
+}
+.hide {
+ display: none;
+ visibility: hidden;
+}
+
+.relative {position: relative;}
+.absolute {position: absolute;}
+
+.fondo(@valor) {background:@valor;}
+//.fondoima(@valor) {background:@valor;}
+//.bg-img(@img) { background-image:url("@{img}"); }
+
+.z(@valor) {z-index: @valor;}
+
+.tcenter {text-align: center;}
+.tleft {text-align: left;}
+.tright {text-align: right;}
+.tjusti {text-align: justify;}
+
+.icono {font-family: FontAwesome;}
+
+.pointer {cursor: pointer;}
+
+
+//MIXINS
+
+.br (@valor: .5rem) {
+  border-radius: @valor
+}
+
+.borde (@valor: @gris-light2) {
+ border: thin solid @valor;
+}
+
+.br-custom (@valor1: .5rem, @valor2: .5rem, @valor3: .5rem, @valor4: .5rem) {
+ border-radius: @valor1 @valor2 @valor3 @valor4;
+}
+ .centrado (@valor1: 0rem, @valor2: 0rem, ) {
+ margin: @valor1 auto @valor2;
+}
+
+ .transition (@valor: 0.2s) {
+ transition: all ease-out @valor;
+}
+
+.fw(@valor: 400;) {font-weight: @valor;}
+
+.fs(@valor1:  1.4rem, @valor2: 100%, @valor3: 400){font-size: @valor1; line-height: @valor2; font-weight: @valor3; }
+
+/* .font-size(@font-size: 16){
+    @pxFontValue: (@font-size / 10);
+    @pxLineValue: (@font-size / 10 * 1.5);
+    font-size: @font-size * .1rem;
+    line-height: @font-size * 1.5 * .1rem;
+    font-size: ~"@{pxFontValue}rem";
+    line-height: ~"@{pxLineValue}rem";
+} */
+
+.upper{text-transform: uppercase;}
+
+.rotate(@valor:180deg) {
+transform: rotate(@valor);
+}
+
+.gradient(@valor1: bottom, @valor2: white 0%, @valor3: transparent 100%,){
+ background-image: linear-gradient(@valor1, @valor2, @valor3);
+}
+
+.nofloat(){
+float: none;
+
+}
+
+.w100 {width: 100%;}
+
+.h100 {height: 100%;}

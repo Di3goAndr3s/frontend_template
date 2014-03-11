@@ -1,0 +1,710 @@
+.page-eform-submit-trabaja-con-nosotros .region-content-top ul.menu li:nth-of-type(4), .page-somos-carval .region-content-top ul.menu li:nth-of-type(4), 
+.menu-secundario ul li:nth-of-type(4) { margin: 1rem 0rem 0rem 0rem; }
+.node-type-somoscarval .region-content-top ul.menu li:nth-child(2) a, .page-somos-carval .region-content-top ul.menu li:nth-child(2) a, .page-eform-submit-trabaja-con-nosotros .region-content-top ul.menu li:nth-child(2) a {
+background: #269fd6;
+}
+.page-eform-submit-trabaja-con-nosotros  .region-content-top ul.menu li a{line-height: 3rem !important;}
+
+/*-------------TRABAJE CON NOSOTROS---------*/
+.page-eform-submit-trabaja-con-nosotros section.main .wrapper form.entitytype-trabaja_con_nosotros-form div 
+.field-type-text{ margin: 0px 2% 2% 0; width: 48%; }
+.page-eform-submit-trabaja-con-nosotros section.main .wrapper form.entitytype-trabaja_con_nosotros-form div 
+.field-type-datetime{margin: 0px 2% 2% 0; width: 48%; border: none;}
+.page-eform-submit-trabaja-con-nosotros section.main .wrapper form.entitytype-trabaja_con_nosotros-form div 
+.field-type-datetime fieldset{border: none;}
+.page-eform-submit-trabaja-con-nosotros section.main .wrapper form.entitytype-trabaja_con_nosotros-form div 
+.field-type-entityreference{margin: 0px 2% 1% 0; width: 48%; border: none;}
+.page-eform-submit-trabaja-con-nosotros section.main .wrapper form.entitytype-trabaja_con_nosotros-form div 
+.field-group-fieldset{margin: 0px 2% 1% 0; width: 48%; border: none; position: relative; height: 7rem;}
+.page-eform-submit-trabaja-con-nosotros section.main .wrapper form.entitytype-trabaja_con_nosotros-form div 
+.field-type-text-long {margin-bottom: 25px;}
+.page-eform-submit-trabaja-con-nosotros section.main .wrapper form.entitytype-trabaja_con_nosotros-form div 
+.field-type-text-long #field-perfil-profesional-add-more-wrapper  .form-type-textarea{width: 98%;}
+
+.page-eform-submit-trabaja-con-nosotros .group-nivel-ingles .field-type-entityreference{ margin: 0px 2% 2% 0; width: 47%;}
+
+.page-eform-submit-trabaja-con-nosotros .field-type-field-collection{margin: 0px 2% 1% 0; width: 48%; border: none;}
+
+.page-eform-submit-trabaja-con-nosotros .form-item-field-logros-y-reconocimientos-und-0-value{width: 98%;}
+
+.page-eform-submit-trabaja-con-nosotros .field-name-field-referencias-personales{width: 98%; }
+.page-eform-submit-trabaja-con-nosotros .field-name-field-referencias-personales .fieldset-description{margin: 0px 0 2px 0;}
+.page-eform-submit-trabaja-con-nosotros .field-name-field-referencias-personales .field-type-text{margin: 0px 2% 1% 0;}
+.page-eform-submit-trabaja-con-nosotros .field-name-field-referencias-personales fieldset{border: none;}
+.page-eform-submit-trabaja-con-nosotros .field-name-field-referencias-personales fieldset .field-type-text{ width: 49%;  }
+
+.page-eform-submit-trabaja-con-nosotros  form  input[type="text"], .page-eform-submit-trabaja-con-nosotros  form  input[type="tel"],
+.page-eform-submit-trabaja-con-nosotros  form  input[type="email"] {  
+position: relative;
+display: inline-block;
+background: #eeeeee;
+border: thin solid #d4d4d4;
+-webkit-transition: all ease-out 0.5s;
+transition: all ease-out 0.5s;
+height: 3.6rem;
+width: 100%;
+font-size: 1.4rem;
+line-height: 2.6rem;
+font-weight: 400;
+margin: 0;
+padding: 0;
+color: #484848;
+text-indent: 1rem;
+}
+.page-eform-submit-trabaja-con-nosotros  form  input[type="text"]:focus, .page-eform-submit-trabaja-con-nosotros  form  input[type="tel"]:focus,
+.page-eform-submit-trabaja-con-nosotros  form  input[type="email"]:focus {
+  background: #ffffff;
+  border: thin solid #d4d4d4;
+}
+
+.page-eform-submit-trabaja-con-nosotros  form.entitytype-trabaja_con_nosotros-form textarea{position: relative; display: inline-block; background: #eeeeee; border: thin solid #d4d4d4; 
+-webkit-transition: all ease-out 0.5s; transition: all ease-out 0.5s; height: 9.6rem; width: 100%; font-size: 1.4rem; line-height: 2.6rem; 
+font-weight: 400; margin: 0; padding: 0; color: #484848; text-indent: 1rem; }
+.page-eform-submit-trabaja-con-nosotros  form.entitytype-trabaja_con_nosotros-form textarea:focus{  background: #ffffff; border: thin solid #d4d4d4;}
+
+.page-eform-submit-trabaja-con-nosotros  form.entitytype-trabaja_con_nosotros-form select{position: relative; float: left; background: #eeeeee; border: thin solid #d4d4d4; 
+-webkit-transition: all ease-out 0.5s; transition: all ease-out 0.5s; height: 3.6rem; width: 20rem; font-size: 1.4rem; line-height: 3.6rem; 
+font-weight: 400; margin: 0; padding: 0; color: #484848; text-indent: 1rem; margin: 0 2rem 0 0; cursor: pointer; }
+.page-eform-submit-trabaja-con-nosotros  form.entitytype-trabaja_con_nosotros-form select:focus{ background: #ffffff; border: thin solid #d4d4d4;}
+
+.page-eform-submit-trabaja-con-nosotros form.entitytype-trabaja_con_nosotros-form  input[type="submit"] {border-radius: 0.5rem; background: rgba(0, 79, 91, 0.8); 
+color: white; font-size: 1.4rem; line-height: 3rem; font-weight: 400; float: right; height: 3rem; padding: 0 1rem; margin: 0 0 0rem 0; clear: both; 
+-webkit-transition: all ease-out 0.5s; transition: all ease-out 0.5s; }
+.page-eform-submit-trabaja-con-nosotros  form.entitytype-trabaja_con_nosotros-form  input[type="submit"]:hover{ background: rgba(232, 145, 4, 0.8);}
+
+.page-eform-submit-trabaja-con-nosotros table .odd, .page-eform-submit-trabaja-con-nosotros table .even{ background:#FFF; border-bottom: 1px solid #ccc; padding: 0.1em 0.6em;}
+.page-eform-submit-trabaja-con-nosotros table td{margin-bottom: 1%;}
+.page-eform-submit-trabaja-con-nosotros table .odd .form-type-textarea, .page-eform-submit-trabaja-con-nosotros table .even .form-type-textarea
+{width: 100%; margin-bottom: 1%;}
+.padding-estudios{padding: 13px 0px 18px 0px !important;}
+.page-eform-submit-trabaja-con-nosotros table .field-type-text{ margin: 0 2% 3% 0; width: 49%;}
+.page-eform-submit-trabaja-con-nosotros table .field-name-field-nombre-o-t-tulo-del-estudi{ width: 100%; margin-bottom: 3%;}
+.page-eform-submit-trabaja-con-nosotros table .field-type-datetime{ margin: 0 2% 3% 0; width: 48%;}
+.page-eform-submit-trabaja-con-nosotros table fieldset{border: none;}
+.page-eform-submit-trabaja-con-nosotros table .field-name-field-empresa, 
+.page-eform-submit-trabaja-con-nosotros table .field-name-field-ciudad-estudios,
+.page-eform-submit-trabaja-con-nosotros table .field-name-field-tel-fono{
+margin-right: 0px;}
+.page-eform-submit-trabaja-con-nosotros #edit-actions{width: 98%;}
+
+.page-eform-submit-trabaja-con-nosotros .fieldset-description{font-size: 1.1rem; margin: 3px 0 0 0; position: absolute; bottom: -8px;}
+.page-eform-submit-trabaja-con-nosotros .description{font-size: 1.1rem; margin: 3px 0 0.51rem 0;}
+
+#field-referencias-personales-add-more-wrapper .fieldset-description{position: absolute; bottom: 46px;}
+
+.page-eform-submit-trabaja-con-nosotros .fieldset-wrapper .field-type-text{ width: 49% !important;}
+
+.page-eform-submit-trabaja-con-nosotros .views-row{ margin-bottom: 0px;}
+
+/*-------------POP UP MAPA DE SITIO---------*/
+.view-id-mapa_del_sitio  .views-field-title .field-content{ color: #484848; font-size: 3.2rem;  line-height: 100%; font-weight: 700;
+display: block;
+width: 98%;
+margin: 9px auto;}
+
+.view-id-mapa_del_sitio  .view-content .views-field-field-descripcion{ 	display: block; width: 98%; min-height: 10px; margin: 9px auto; }
+
+.view-id-mapa_del_sitio  .field-content p{color: #999999; font-size: 1.4rem;}
+.region-content-bottom .menu .expanded{ border-bottom: 1px solid #CFCFCF;  padding: 5px 5px 5px 5px; cursor: pointer; width: 98%;
+margin: 0px auto;}
+.region-content-bottom .menu .expanded span{ 
+	color: #515151;
+font-weight: bold;
+font-size: 18px;
+padding: 0 0 0 18px;
+position: relative;
+}
+.region-content-bottom .menu .expanded span::before {
+	content: "\f055";
+font-family: FontAwesome;
+position: absolute;
+text-align: center;
+z-index: 999;
+font-size: 1.6rem;
+line-height: 100%;
+font-weight: 400;
+color: #515151;
+border: none;
+bottom: 0.2rem;
+left: 0;
+}
+.region-content-bottom ul.menu ul.menu {
+	display: none;
+padding: 7px 0 0 0;
+margin: 7px 0 6px 0;
+border-top: 1px solid #D9D9D9;
+}
+.region-content-bottom ul.menu ul.menu li a{ padding: 0px 0 5px 20px;
+color: #979797;
+font-family: 'Source Sans Pro', sans-serif;
+-webkit-transition: all ease-out 0.3s;
+transition: all ease-out 0.3s;
+position: relative;
+margin-left: 21px; } 
+.region-content-bottom ul.menu ul.menu li a:hover{padding: 0px 0 5px 25px; color: #28a6a6;} 
+.region-content-bottom ul.menu ul.menu li a::before {
+content: "\f061";
+font-family: FontAwesome;
+position: absolute;
+text-align: center;
+z-index: 999;
+font-size: 1.2rem;
+line-height: 100%;
+font-weight: 400;
+color: #979797;
+border: none;
+bottom: 0.6rem;
+left: 0;
+}
+.region-content-bottom ul.menu ul.menu li a:hover > .region-content-bottom 
+ul.menu ul.menu li a::before{color:#28a6a6;} 
+
+/*---------------------PREGUNTAS FRECUENTES-----------------------*/
+.view-preguntas-frecuentes .view-filters{height: 31px;}
+.view-preguntas-frecuentes .views-exposed-form{float: right;}
+.view-preguntas-frecuentes .views-exposed-widgets #edit-keys-wrapper{ float: left; width: 24rem; }
+
+.view-preguntas-frecuentes .views-exposed-form .views-exposed-widgets{position: relative;}
+
+.view-preguntas-frecuentes .views-exposed-widgets #edit-keys-wrapper label{float: left; width: 6rem; line-height: 2.3rem;}
+.view-preguntas-frecuentes .views-exposed-widgets #edit-keys-wrapper .views-widget{float:left; width: 18rem;}
+.view-preguntas-frecuentes .views-exposed-widgets #edit-keys-wrapper .views-widget input[type="text"]{
+position: relative; float: left; background: #eeeeee; border: thin solid #d4d4d4; -webkit-transition: all ease-out 0.5s; transition: all ease-out 0.5s;
+height: 2.6rem; width: 100%; font-size: 1.4rem; line-height: 2.6rem; font-weight: 400; margin: 0; padding: 0; color: #484848; text-indent: 1rem; }
+
+.view-preguntas-frecuentes .views-exposed-widgets .views-submit-button input[type="submit"] { background: rgba(0, 79, 91, 0.8)  url(../img/lupe.png) 0.7rem 0.7rem no-repeat; 
+color: white; font-size: 1.4rem; line-height: 2rem; font-weight: 400; float: right; width: 2.8rem; height: 2.6rem; padding: 0 1rem; margin: 0 0 0rem 0; clear: both; 
+-webkit-transition: all ease-out 0.5s; transition: all ease-out 0.5s; text-indent: -99999px;}
+.view-preguntas-frecuentes .views-exposed-widgets .views-submit-button input[type="submit"]:hover{ background: rgba(232, 145, 4, 0.8)  url(../img/lupe.png) 0.7rem 0.7rem no-repeat;}
+
+.page-preguntas-frecuentes .view-preguntas-frecuentes .view-content h3{color: #555555; font-size: 2.8rem; line-height: 100%; font-weight: 400;
+margin: 9px 0 6px 0;}
+.page-preguntas-frecuentes .view-preguntas-frecuentes .view-content .views-field-field-descripcion{background: #F5F5F5;
+padding: 8px 32px 7px 10px; position: relative; cursor:pointer; margin:0 0 12px 0;}
+.page-preguntas-frecuentes .view-preguntas-frecuentes .view-content .views-field-field-descripcion:hover{color: rgba(0, 79, 91, 0.8) !important;}
+.page-preguntas-frecuentes .view-preguntas-frecuentes .view-content .views-field-field-descripcion p:hover{color: rgba(0, 79, 91, 0.8) !important;}
+.page-preguntas-frecuentes .view-preguntas-frecuentes .view-content .views-field-field-descripcion::after {
+content: "\f055";
+font-family: FontAwesome;
+position: absolute;
+text-align: center;
+z-index: 999;
+font-size: 2rem;
+line-height: 100%;
+font-weight: 400;
+color: #515151;
+border: none;
+right: 0.8rem;
+top: 0.8rem;
+}
+.page-preguntas-frecuentes .view-preguntas-frecuentes .view-content .views-field-field-descripcion-2{ padding: 0px 13px 17px 13px; display: none}
+.page-preguntas-frecuentes .view-preguntas-frecuentes .view-content .views-field-field-descripcion-2 p{ color: #999999 !important;}
+
+.page-preguntas-frecuentes .view-preguntas-frecuentes .view-content .views-row, 
+.page-preguntas-frecuentes .view-preguntas-frecuentes .view-content .views-row p {color: #555555; font-size: 1.6rem; font-weight: 400; line-height: 2rem;}
+
+/*---------------------CONTACTENOS-----------------------*/
+#colorbox header{display: none;}
+#colorbox nav{display: none;}
+#colorbox .main section{ display: none;}
+#colorbox .easy-breadcrumb{display: none;}
+
+.view-id-contacto{
+	box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+padding: 0px;
+width: 50rem;
+min-height: 10px;
+overflow: hidden;
+display: block;
+margin-top: 18px;
+margin-left: 13px;
+float: left;
+} 
+.view-id-contacto .views-field-title .field-content{display: block; color: #484848; font-size: 3.2rem; line-height: 100%; font-weight: 700; 
+width: 100%; margin-bottom: 7px;}
+.view-id-contacto .field-content p{color: #999999; font-size: 1.4rem;}
+
+.webform-client-form{width: 48.5rem;
+min-height: 10px;
+float: left;
+margin-left: 13px;
+overflow: hidden;
+display: block;}
+
+.webform-client-form #webform-component-sede{width: 100%; min-height: 10px; margin: 0 0 9px 0; display: block; overflow: auto;} 
+.webform-client-form #webform-component-sede label{float: left; width:100%;}
+
+
+.webform-client-form #webform-component-telefono{width: 100%; display: block; min-height: 10px; overflow: hidden; margin: 0 0 9px 0;} 
+.webform-client-form #webform-component-telefono label{float: left; width: 100%;}
+.webform-client-form .form-item input[type="number"]{
+background: #eeeeee;
+border: thin solid #d4d4d4;
+-webkit-transition: all ease-out 0.5s;
+transition: all ease-out 0.5s;
+height: 3.6rem;
+width: 100%;
+font-size: 1.4rem;
+line-height: 2.6rem;
+font-weight: 400;
+margin: 0px 0 13px 0;
+padding: 0;
+color: #484848;
+text-indent: 1rem;
+}
+
+
+.webform-client-form .form-item input[type="text"], .webform-client-form .form-item input[type="tel"],
+.webform-client-form .form-item input[type="email"]{  
+position: relative;
+display: inline-block;
+background: #eeeeee;
+border: thin solid #d4d4d4;
+-webkit-transition: all ease-out 0.5s;
+transition: all ease-out 0.5s;
+height: 3.6rem;
+width: 100%;
+font-size: 1.4rem;
+line-height: 2.6rem;
+font-weight: 400;
+margin: 5px 0 13px 0;
+padding: 0;
+color: #484848;
+text-indent: 1rem;
+}
+.webform-client-form .form-item input[type="text"]:focus, .webform-client-form .form-item input[type="tel"]:focus,
+.webform-client-form .form-item input[type="email"]:focus{
+  background: #ffffff;
+  border: thin solid #d4d4d4;
+}
+
+.webform-client-form .form-item textarea{position: relative; display: inline-block; background: #eeeeee; border: thin solid #d4d4d4; 
+-webkit-transition: all ease-out 0.5s; transition: all ease-out 0.5s; height: 9.6rem; width: 100%; font-size: 1.4rem; line-height: 2.6rem; 
+font-weight: 400; margin: 5px 0 13px 0; padding: 0; color: #484848; text-indent: 1rem; }
+.webform-client-form .form-item textarea:focus{  background: #ffffff; border: thin solid #d4d4d4;}
+
+
+.webform-client-form .form-item  select{ float: left; background: #eeeeee; border: thin solid #d4d4d4; 
+-webkit-transition: all ease-out 0.5s; transition: all ease-out 0.5s; height: 3.6rem; width: 100%; font-size: 1.4rem; line-height: 3.6rem; 
+font-weight: 400; margin: 0; padding: 0; color: #484848; text-indent: 1rem; margin: 0 2rem 0 0; cursor: pointer; }
+.webform-client-form .form-item  select:focus{ background: #ffffff; border: thin solid #d4d4d4;}
+
+.webform-client-form input[type="submit"] {border-radius: 0.5rem; background: rgba(0, 79, 91, 0.8); 
+color: white; font-size: 1.4rem; line-height: 3rem; font-weight: 400; height: 3rem; padding: 0 1rem; margin: 0 0 0rem 0; clear: both; 
+-webkit-transition: all ease-out 0.5s; transition: all ease-out 0.5s; }
+.webform-client-form input[type="submit"]:hover{ background: rgba(232, 145, 4, 0.8);}
+
+
+/*----------------------------POLITICAS -----------------------*/
+.node-type-mapa-del-sitio nav{display: none;}
+.node-type-mapa-del-sitio .easy-breadcrumb{display: none;} 
+.node-t-rminos-y-condiciones .content{width: 97%; min-height: 10px;  overflow: hidden; margin: 0px auto;}
+.node-t-rminos-y-condiciones .content .field-type-text-with-summary{ color: #555555; font-size: 1.6rem; font-weight: 400; line-height: 2rem;}
+
+/*------------------------------BUSCADOR--------------------------*/
+.search-advanced{display: none;}
+
+.page-search .region-content .search-form .form-type-searchfield label{color: #484848; width: 25rem; font-size: 1.9rem; line-height: 2.5rem; 
+float: left; font-weight: 700; }
+.page-search .region-content .search-form .form-type-searchfield input[type="search"]{position: relative; float: left; background: #eeeeee;
+border: thin solid #d4d4d4; -webkit-transition: all ease-out 0.5s; transition: all ease-out 0.5s; height: 2.6rem; width: 25.6rem; font-size: 1.4rem; 
+line-height: 2.6rem; font-weight: 400; margin: 0; padding: 0; color: #484848; text-indent: 1rem; }
+.page-search .region-content .search-form .form-type-searchfield input[type="search"]:focus { background: #ffffff;   border: thin solid #d4d4d4;}
+
+.page-search .region-content .search-form #edit-basic{float: right;}
+.page-search .region-content .search-form input[type="submit"] {background: rgba(0, 79, 91, 0.8) url(../img/lupe.png) 0.7rem 0.7rem no-repeat; 
+color: white; font-size: 1.4rem; line-height: 1rem; font-weight: 400; width: 3rem; height: 2.8rem; padding: 0 1rem; margin: 0 0 0rem 0.0rem; 
+text-indent: -9999px; -webkit-transition: all ease-out 0.5s; transition: all ease-out 0.5s; }
+.page-search .region-content .search-form  input[type="submit"]:hover{ background: rgba(232, 145, 4, 0.8) url(../img/lupe.png) 0.7rem 0.7rem no-repeat;}
+
+.page-search .region-content h2{color: #555555; font-size: 2.8rem; line-height: 100%; font-weight: 400;  margin: 0rem 0 0.5rem 0;}
+
+.page-search .region-content .search-results{margin: 10px 0;}
+.page-search .region-content .search-results li{ padding: 10px 0; background: #F5F5F5;}
+.page-search .region-content .search-results li .title a{color: rgba(0, 79, 91, 0.8); padding: 0 0 0 18px; position: relative; margin: 0 0 10px 0;-webkit-transition: all ease-out 0.5s; transition: all ease-out 0.5s;} 
+/*.page-search .region-content .search-results li .title a::before {content: "\f046"; font-family: FontAwesome; position: absolute; text-align: center;
+z-index: 999; font-size: 1.5rem; line-height: 100%; font-weight: 400; color: #28a6a6; border: none; bottom: -0.2rem; left: 0; }*/
+.page-search .region-content .search-results li .title a:hover{text-decoration: underline;}
+.page-search .region-content .search-results li .search-snippet-info a{display: none;}
+.page-search .region-content .search-results li .search-snippet-info .search-snippet{color: #555555; font-size: 1.6rem; font-weight: 400;
+line-height: 2rem;}
+
+/*.page-search .item-list .pager{ text-align: center;}
+.page-search .item-list .pager li{background: rgba(40, 166, 166, 0.8);
+background: rgba(40, 166, 166, 0.8);
+width: 24px;
+height: 26px;
+font-size: 1.2rem;
+line-height: 1.4rem;
+font-weight: 700;
+color: white;
+display: inline-block;
+margin: 0 0 0.25em 0.5em;
+}
+.page-search .item-list .pager li.pager-first,
+.page-search .item-list .pager li.pager-previous,
+.page-search .item-list .pager li.pager-next,
+.page-search .item-list .pager li.pager-last
+{
+display: none;
+}*/
+
+.not-logged-in .search-form .form-type-searchfield label{color: #484848; width: 25rem; font-size: 1.9rem; line-height: 2.5rem; 
+float: left; font-weight: 700; }
+.not-logged-in .search-form .form-type-searchfield input[type="search"]{position: relative; float: left; background: #eeeeee;
+border: thin solid #d4d4d4; -webkit-transition: all ease-out 0.5s; transition: all ease-out 0.5s; height: 2.6rem; width: 18.6rem; font-size: 1.4rem; 
+line-height: 2.6rem; font-weight: 400; margin: 0; padding: 0; color: #484848; text-indent: 1rem; }
+.not-logged-in .search-form .form-type-searchfield input[type="search"]:focus { background: #ffffff;   border: thin solid #d4d4d4;}
+
+.not-logged-in .search-form #edit-basic{float: right;}
+.not-logged-in .search-form input[type="submit"] {background: rgba(0, 79, 91, 0.8) url(../img/lupe.png) 0.7rem 0.7rem no-repeat; 
+color: white; font-size: 1.4rem; line-height: 1rem; font-weight: 400; width: 3rem; height: 2.8rem; padding: 0 1rem; margin: 0 0 0rem 0.0rem; 
+text-indent: -9999px; -webkit-transition: all ease-out 0.5s; transition: all ease-out 0.5s; }
+.not-logged-in .search-form  input[type="submit"]:hover{ background: rgba(232, 145, 4, 0.8) url(../img/lupe.png) 0.7rem 0.7rem no-repeat;}
+
+.not-logged-in h2{color: #555555; font-size: 2.8rem; line-height: 100%; font-weight: 400;  margin: 0rem 0 0.5rem 0;}
+
+.not-logged-in .search-results{margin: 10px 0;}
+.not-logged-in .search-results li{ padding: 10px 0; background: #F5F5F5;}
+.not-logged-in .search-results li .title a{color: rgba(0, 79, 91, 0.8); padding: 0 0 0 18px; position: relative; margin: 0 0 10px 0;-webkit-transition: all ease-out 0.5s; transition: all ease-out 0.5s;} 
+/*.not-logged-in .search-results li .title a::before {content: "\f046"; font-family: FontAwesome; position: absolute; text-align: center;
+z-index: 999; font-size: 1.5rem; line-height: 100%; font-weight: 400; color: #28a6a6; border: none; bottom: -0.2rem; left: 0; }*/
+.not-logged-in .search-results li .title a:hover{text-decoration: underline;}
+.not-logged-in .search-results li .search-snippet-info a{display: none;}
+.not-logged-in .search-results li .search-snippet-info .search-snippet{color: #555555; font-size: 1.6rem; font-weight: 400;
+line-height: 2rem;}
+
+.search-info{display: none;}
+
+/*----------------------------LOGIN-*------------------------------*/
+.page-user #user-login{ margin: 0px auto; display: block; width: 43rem;}
+.page-user #user-login .form-type-password{margin: 15px 0 0 0;}
+.page-user #user-login .description{font-size: 1.1rem; margin: 3px 0 0 0;}
+
+.page-user #user-login .form-actions{width: 100%;}
+.page-user #user-login input[type="submit"] {border-radius: 0.5rem; background: rgba(0, 79, 91, 0.8); 
+color: white; font-size: 1.4rem; line-height: 3rem; font-weight: 400; height: 3rem; padding: 0 1rem; margin: 7px 0 0rem 0; clear: both; 
+-webkit-transition: all ease-out 0.5s; transition: all ease-out 0.5s; float: right;}
+.page-user #user-login input[type="submit"]:hover{ background: rgba(232, 145, 4, 0.8);}
+
+
+/*----Buscador-----*/
+.region-buscador .form-actions {background: rgba(0, 79, 91, 0.8) url(../img/lupe.png) 0.7rem 0.7rem no-repeat; min-height: 2.7rem; width: 2.7rem; 
+right: -0.1rem; position: absolute; top: 0rem; z-index: 1; text-indent: -999rem; -webkit-transition: all ease-out 0.2s; transition: all ease-out 0.2s; }
+.region-buscador .form-actions:hover{ background: rgba(232, 145, 4, 0.8) url(../img/lupe.png) 0.7rem 0.7rem no-repeat;}
+.region-buscador .form-actions:focus {  background: rgba(0, 79, 91, 0.8);}
+
+
+/*-------------------------------------RESPONSIVE-----------------------------------------*/
+/* Tablet Portrait size to Tablet Landscape (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+	/*Header*/
+	.wrapper { width: 95%; }
+	.region-menu-superior {margin: 1.5rem auto 1rem auto; height: 4.5rem; width: 31.7rem; display: block; }
+	.region-buscador {width: 21rem;}
+
+	/*Banner*/
+	.region-banner .views-row-1 .field-name-field-titulo{font-size: 2.3rem; top: 8rem; max-width: 58%;}
+	.region-banner .views-row-1 .field-name-field-descripcion{font-size: 1.3rem; top: 14rem; width: 56%;}
+	.region-banner .views-row-2 .field-name-field-titulo{font-size: 2.3rem; top: 8rem; max-width: 58%;}
+	.region-banner .views-row-2 .field-name-field-descripcion{font-size: 1.3rem; top: 14rem; width: 56%;}
+	.region-banner .views-row-3 .field-name-field-titulo{font-size: 2.3rem; top: 8rem; max-width: 58%;}
+	.region-banner .views-row-3 .field-name-field-descripcion{font-size: 1.3rem; top: 14rem; width: 56%;}
+	.region-banner .views-row-4 .field-name-field-titulo{font-size: 2.3rem; top: 8rem; max-width: 58%;}
+	.region-banner .views-row-4 .field-name-field-descripcion{font-size: 1.3rem; top: 14rem; width: 56%;}
+	.region-banner img{height: 34.5rem;}
+
+	/*Contenidos*/
+   .front .region-menu-principal{margin: 2rem auto 0.5rem auto; max-width: 95%; padding: 0; width: 95%;}
+   .front .region-menu-principal ul.menu li{ width: 17rem; /*height: 4rem;*/ line-height: 4rem; margin: 0 1.5rem 0 0rem; font-weight: bold;}
+   .front .region-menu-principal ul.menu > li:nth-of-type(1){ width: 17rem; margin: 0 1.5rem 0 0.3rem;}
+   .front .region-menu-principal ul.menu > li:nth-of-type(4){margin: 0 0rem 0 0rem;}
+   .front .region-menu-principal ul.menu > li a{font-size: 1.2em;}
+
+   .front .modulo-noticias-home .field-name-titulo-home-noticias{margin: 0 0 1rem 0;}
+   .front .region-content .view-id-home{ width: 99%; display: block; float: none; margin: 2.5rem auto 1rem auto; padding: 1.1rem; height: 21.5rem;}
+   .front .region-content .view-id-home .field-name-field-titulo{font-size: 2.2rem; line-height: 2.2rem; font-weight: bold; margin: 0 0 0.9rem; }
+   .front .region-content .view-id-home .field-type-image {
+		border: 1px solid #cccccc;
+		-moz-border-radius: 5px 5px 5px 5px;
+		-ms-border-radius: 5px 5px 5px 5px;
+		-webkit-border-radius: 5px 5px 5px 5px;
+		height: 12rem;
+		margin-right: 15px;
+		opacity: 1;
+		-moz-opacity: 1;
+		filter: progid:DXImageTransform.Microsoft.Alpha(opacity= 1);
+		float: left;
+		width: 19rem;}
+
+	.front .region-content .view-id-home .field-name-field-subtitulo{width: 70%;}
+	.front .region-content .view-id-home .field-name-title{width: 70%;}
+	.front .region-content .view-id-home .field-name-field-descripcion{width: 70%;}
+	.front .region-content .view-id-home .field-name-field-descripcion-historia{width: 70%;}
+
+	.publicidad-home .views-field-field-image{width: 23rem; height: 10.7rem; margin: 0em 0 0 0rem;} 
+	.publicidad-home .views-field-field-descripcion-2{width: 58%; top: 1.5rem; }
+	.publicidad-home .views-field-field-descripcion-2 strong{ line-height: 2.4rem; font-size: 2.0rem; }
+
+	.front .publicidad-home{height: auto !important; padding: 0rem !important;}
+	.publicidad-home .views-field-field-imagen-fondo-publicidad{bottom: auto;height: 1rem;}	
+
+	/*Footer*/
+	.region-footer-logo{margin: 1.4rem 0 0;}
+	.region-footer-logo img { width: 14.2rem; height: 3.5rem; margin: 1.7rem 2rem 0 0;}
+	.region-footer-menu{ margin: 1.1em 0 0 1rem;}
+	.footer-autor a { font-size: 1.1rem;} 
+	.region-footer-menu ul.menu li a {color: white; font-size: 1.3rem;}
+
+	.region-footer-copy{ width: 100%; display: block; float: none; margin: 0.6rem auto auto auto; text-align: center; min-height: 10px; overflow: hidden;}
+	.region-footer-copy .views-field-field-descripcion{float: none; font-size: 1.1rem;}
+	.region-footer-ahorranito{width: 100%; margin: 0.4rem auto auto auto;}
+
+	.footer-autor{width: 18rem; margin: 0px auto; float: none;}
+
+
+	/*Somos Carval*/
+	.not-front .region-menu-principal{margin: 2rem auto 0.5rem auto; max-width: 95%; padding: 0; width: 95%;}
+	.not-front .region-menu-principal ul.menu li{ width: 17rem; /*height: 4rem;*/ line-height: 4rem; margin: 0 1.5rem 0 0rem; font-weight: bold;}
+    .not-front .region-menu-principal ul.menu > li:nth-of-type(1){ width: 17rem; margin: 0 1.5rem 0 0.3rem;}
+    .not-front .region-menu-principal ul.menu > li:nth-of-type(4){margin: 0 0rem 0 0rem;}
+    .not-front .region-menu-principal ul.menu > li a{font-size: 1.2em;}
+
+    .titulo-seccion{font-size: 3rem;}
+
+    .not-front .region-content-top{margin: 0rem auto 0.5rem auto; max-width: 100%; padding: 0; width: 100%;}
+    .not-front .region-content-top ul.menu{ width: 100%; margin:2rem auto 1rem auto;}
+	.not-front .region-content-top ul.menu li{ width: 17rem; height: 5rem; line-height: 5rem; margin: 0 1.5rem 0.5rem 0rem; font-weight: bold;}
+    .not-front .region-content-top ul.menu > li:nth-of-type(1){ width: 17rem; margin: 0 1.5rem 0.5rem 0.0rem;}
+    .not-front .region-content-top ul.menu > li:nth-of-type(4){margin: 0 0rem 0.5rem 0rem;}
+    .not-front .region-content-top ul.menu > li a{font-size: 1.2em;}
+    .page-noticias .region-content-top ul li.active-trail a::before{left: 1.5rem; padding: 0 1.1rem 0 0; font-size: 1.5rem;}
+    .page-somos-carval .region-content-top ul.menu li.active-trail a::before{left: 0.6rem; padding: 0 0.6rem 0 0; font-size: 1.5rem;}
+
+    /*Experiencia*/
+    .views-field.views-field-field-video, .embedded-video{display: block; width: 100%; min-height: 10px; overflow: hidden; margin: 0 0 1rem 0;}
+    .page-somos-carval-experiencia-carval iframe{float: none; margin: 0px auto; display: block; width: 100%;}
+
+    .field-name-field-imagen-slider-sedes .field-slideshow-processed{height: 235px !important;}
+
+    /*Trabaje con Nosotros*/
+    form label {font-size: 1.22rem;}
+    .page-eform-submit-trabaja-con-nosotros .group-nivel-ingles .field-type-entityreference select{width: 90%;}
+    .menu-secundario ul li a.active::before{left: 0.6rem; padding: 0 0.6rem 0 0; font-size: 1.5rem;}
+    #field-referencias-personales-add-more-wrapper .fieldset-description{ bottom: 34px;}
+
+    /*Divisiones de Negocios*/
+    .not-front .menu-secundario{margin: 0rem auto 0.5rem auto; max-width: 100%; padding: 0; width: 100%;}
+    .not-front .menu-secundario ul{ width: 100%; margin:2rem auto 1rem auto;}
+	.not-front .menu-secundario ul li{ width: 17rem; height: 5rem; line-height: 5rem; margin: 0 1.5rem 0.5rem 0rem; font-weight: bold;}
+    .not-front .menu-secundario ul > li:nth-of-type(1){ width: 17rem; margin: 0 1.5rem 0.5rem 0.0rem;}
+    .not-front .menu-secundario ul > li:nth-of-type(4){margin: 0 0rem 0.5rem 0rem;}
+    .not-front .menu-secundario ul > li a{font-size: 1.2em;}
+
+    /*Resultado Busqueda*/
+    .page-search .region-content .search-form .form-type-searchfield input[type="search"]{width: 18.6rem;}
+    .search-form {margin-top: 2rem;}
+
+    .node-type-tipos-productos .view-productos-y-servicios .views-exposed-widgets{padding:0rem 0 0 0;}
+
+    /*Productos y Servicios*/
+    .node-type-tipos-productos .cajas form select{width: 22.9rem;}
+    .node-type-tipos-productos .views-exposed-form .views-exposed-widget{margin: 1rem 0 0 0;}
+    .node-type-tipos-productos #edit-shs-term-node-tid-depth-select-3{margin: 0 0rem 0 0}
+
+    /*Responsabilidad*/
+    .views-slideshow-bxslider li{width: 23.7rem !important; }
+}
+
+@media only screen and (min-width: 979px) and (max-width: 1024px) {
+	/*Header*/
+	.wrapper{ width: 95%;}
+	.region-menu-superior{ margin: 1.5rem 0 0 13rem;}
+	.region-buscador {width: 19rem;}
+
+	/*Contenidos*/
+   .front .region-menu-principal{  width: 95%;}
+   .front .region-menu-principal ul.menu li{width: 23.9%;}
+   .front .region-menu-principal ul.menu > li:nth-of-type(1){margin: 0 1rem 0 0.0rem;}
+   .front .region-menu-principal ul.menu > li:nth-of-type(4){margin: 0 0rem 0 0.0rem;}
+
+   /*Somos Carval*/
+   .not-front .region-menu-principal{ width: 95%;}
+   .not-front .region-menu-principal ul.menu li{margin: 0 2.9rem 0 0;}
+
+   .not-front .region-content-top ul.menu li{margin: 1.3rem 2.9rem 0rem 0rem; width: 22.6%;}
+   .page-somos-carval .region-content-top ul.menu li.active-trail a::before{left: 0.7rem; padding: 0 0.7rem 0 0;}
+   .menu-secundario ul li a.active::before{left: 0.7rem; padding: 0 0.7rem 0 0;}
+
+   .menu-secundario ul li{margin: 1.3rem 2.9rem 0rem 0rem; width: 22.6%;}
+
+   /*Resultado Busqueda*/
+    .page-search .region-content .search-form .form-type-searchfield input[type="search"]{width: 18.6rem;}
+
+    #field-referencias-personales-add-more-wrapper .fieldset-description{ bottom: 40px;}
+
+    .node-type-tipos-productos .view-productos-y-servicios .views-exposed-widgets{padding:0rem 0 0 0;}
+
+    .search-form {margin-top: 2rem; }
+
+    /*Responsabilidad*/
+    .views-slideshow-bxslider li{width: 23.64rem !important; }
+}
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+	/*Header*/
+	.wrapper { width: 95%; }
+	.region-menu-superior {margin: 0rem auto 1rem auto; height: 4.5rem; width: 100%; display: block;  }
+	.region-menu-superior ul{ margin: 0px auto; width: 33rem;}
+	.region-buscador {width: 18rem;margin: 2.5rem 0.6rem 0 0;}
+	.region-idiomas{margin: 3.2rem 0rem 0 0;}
+
+	/*Banner*/
+	.region-banner .views-row-1 .field-name-field-titulo{font-size: 2rem; top: 4rem; max-width: 58%;}
+	.region-banner .views-row-1 .field-name-field-descripcion{font-size: 1.3rem; top: 10rem; width: 72%;} 
+	.region-banner .views-row-2 .field-name-field-titulo{font-size: 2rem; top: 4rem; max-width: 58%;}
+	.region-banner .views-row-2 .field-name-field-descripcion{font-size: 1.3rem; top: 10rem; width: 72%;} 
+	.region-banner .views-row-3 .field-name-field-titulo{font-size: 2rem; top: 4rem; max-width: 58%;}
+	.region-banner .views-row-3 .field-name-field-descripcion{font-size: 1.3rem; top: 10rem; width: 72%;} 
+	.region-banner .views-row-4 .field-name-field-titulo{font-size: 2rem; top: 4rem; max-width: 58%;}
+	.region-banner .views-row-4 .field-name-field-descripcion{font-size: 1.3rem; top: 10rem; width: 72%;} 
+	.region-banner img{height: 26rem;}
+
+	/*Contenidos*/
+   .front .region-menu-principal{margin: 2rem auto 0.5rem auto; max-width: 95%; padding: 0; width: 95%;}
+   .front .region-menu-principal ul.menu li{ width: 100%; /*height: 4rem;*/ line-height: 4rem; margin: 0 1.5rem 0.5rem 0rem; font-weight: bold;}
+   .front .region-menu-principal ul.menu > li:nth-of-type(1){ width: 100%; margin: 0 1.5rem 0.5rem 0rem;}
+   .front .region-menu-principal ul.menu > li:nth-of-type(4){margin: 0 0rem 0.5rem 0rem;}
+   .front .region-menu-principal ul.menu > li a{font-size: 1.2em;}
+   .front .region-menu-principal ul.menu > li > ul.menu{position: relative; height: auto; padding: 1.5rem 1rem 1rem; overflow: hidden; top: 0;}
+   .front .region-menu-principal ul.menu li:nth-of-type(2) ul.menu::before, .front .region-menu-principal ul.menu li:nth-of-type(4) ul.menu::before{
+   	width: 0; height: 0; border-bottom: 1rem solid #e89104; border-left: 1rem solid transparent; border-right: 1rem solid transparent; 
+   	position: absolute; content: ''; z-index: 9999; top: 0; left: 50%; margin: 0 0 0 -0.5rem; -webkit-transform: rotate(180deg); 
+   	-ms-transform: rotate(180deg); transform: rotate(180deg); }
+   .front .region-menu-principal ul.menu li:nth-of-type(1) ul.menu::before{ width: 0; height: 0; border-bottom: 1rem solid #39a9dc; 
+   	border-left: 1rem solid transparent; border-right: 1rem solid transparent; position: absolute; content: ''; z-index: 9999; top: 0; 
+   	left: 50%; margin: 0 0 0 -0.5rem; -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg);}
+   	.front .region-menu-principal ul.menu li:nth-of-type(3) ul.menu::before{ width: 0; height: 0; border-bottom: 1rem solid #28a6a6; 
+   	border-left: 1rem solid transparent; border-right: 1rem solid transparent; position: absolute; content: ''; z-index: 9999; top: 0; 
+   	left: 50%; margin: 0 0 0 -0.5rem; -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg);}
+
+   .not-front .region-menu-principal ul.menu > li > ul.menu{position: relative; height: auto; padding: 1.5rem 1rem 2rem; overflow: hidden; top: 0;}
+
+   .front .modulo-noticias-home .field-name-titulo-home-noticias{margin: 0 0 1rem 0;}
+   .front .region-content .view-id-home{ width: 99%; display: block; float: none; margin: 2.5rem auto 1rem auto; padding: 1.1rem; height: 21.5rem;}
+   .front .region-content .view-id-home .field-name-field-titulo{font-size: 2.2rem; line-height: 2.2rem; font-weight: bold; margin: 0 0 0.9rem; }
+   .front .region-content .view-id-home .field-type-image {border: 1px solid #cccccc; -moz-border-radius: 5px 5px 5px 5px; -ms-border-radius: 5px 5px 5px 5px; -webkit-border-radius: 5px 5px 5px 5px; height: 11rem; margin-right: 15px; opacity: 1; -moz-opacity: 1; filter: progid:DXImageTransform.Microsoft.Alpha(opacity= 1); float: left; width: 17rem;}
+	.front .region-content .view-id-home .field-name-field-subtitulo{width: 65%;}
+	.front .region-content .view-id-home .field-name-title{width: 65%;}
+	.front .region-content .view-id-home .field-name-field-descripcion{width: 65%;}
+	.front .region-content .view-id-home .field-name-field-descripcion-historia{width: 65%;}
+
+	.publicidad-home .views-field-field-image{width: 19rem; height: 8rem; margin: 0em 0 0 0rem;} 
+	.publicidad-home .views-field-field-descripcion-2{width: 58%; top: 1.1rem; right: 2rem; }
+	.publicidad-home .views-field-field-descripcion-2 strong{ line-height: 2rem; font-size: 1.7rem; }
+
+	.front .publicidad-home{height: 8rem !important; padding: 0rem !important;}
+	.publicidad-home .views-field-field-imagen-fondo-publicidad{bottom: auto;height: 1rem;}	
+
+	/*Footer*/
+	.region-footer-logo{margin: 1.4rem 0 0; width: 52%;}
+	.region-footer-logo img { width: 14.2rem; height: 3.5rem; margin: 1.7rem 1rem 0 0;}
+	.region-footer-menu{ margin: 1.1em 0 0 1rem;}
+	.footer-autor a { font-size: 1.1rem;} 
+	.region-footer-menu ul.menu li a {color: white; font-size: 1.2rem; line-height: 1.3rem;}
+
+	.region-footer-copy{ width: 100%; display: block; float: none; margin: 0.6rem auto auto auto; text-align: center; min-height: 10px; overflow: hidden;}
+	.region-footer-copy .views-field-field-descripcion{float: none; font-size: 1.1rem;}
+	.region-footer-ahorranito{width: 100%; margin: 0.4rem auto auto auto;}
+
+	.footer-autor{width: 18rem; margin: 0px auto; float: none;}
+
+	/*Internas*/
+	.not-front .region-menu-principal{margin: 2rem auto 0.5rem auto; max-width: 95%; padding: 0; width: 95%;}
+    .not-front .region-menu-principal ul.menu li{ width: 100%; /*height: 4rem;*/ line-height: 4rem; margin: 0 1.5rem 0.5rem 0rem; font-weight: bold;}
+    .not-front .region-menu-principal ul.menu > li:nth-of-type(1){ width: 100%; margin: 0 1.5rem 0.5rem 0rem;}
+    .not-front .region-menu-principal ul.menu > li:nth-of-type(4){margin: 0 0rem 0.5rem 0rem;width: 100%;}
+    .not-front .region-menu-principal ul.menu > li a{font-size: 1.2em;}
+
+    /*Somos Carval*/
+    .not-front .region-content-top{margin: 0rem auto 0.5rem auto; max-width: 100%; padding: 0; width: 100%;}
+    .not-front .region-content-top ul.menu{ width: 100%; margin:2rem auto 1rem auto;}
+	.not-front .region-content-top ul.menu li{ width: 17.5rem; height: 5rem; line-height: 5rem; margin: 0 1.5rem 0.5rem 0rem; font-weight: bold;}
+    .not-front .region-content-top ul.menu > li:nth-of-type(1){ width: 18.5rem; margin: 0 1.5rem 0.5rem 0.0rem;}
+    .not-front .region-content-top ul.menu > li:nth-of-type(3){margin: 0 0rem 0.5rem 0rem;}
+    .not-front .region-content-top ul.menu > li:nth-of-type(4){margin: 0rem 1.5rem  0.5rem  0rem;width: 18.5rem;}
+	.not-front .region-content-top ul.menu > li:nth-of-type(6){margin: 0 0rem 0.5rem 0rem;}    
+    .not-front .region-content-top ul.menu > li a{font-size: 1.2em;}
+    .page-noticias .region-content-top ul li.active-trail a::before{left: 0.6rem; padding: 0 0.6rem 0 0; font-size: 1.5rem;}
+    .page-somos-carval .region-content-top ul.menu li.active-trail a::before{left: 0.6rem; padding: 0 0.6rem 0 0; font-size: 1.5rem;}
+    .node-type-eventos .region-content-top ul li.active-trail a::before{left: 0.6rem; padding: 0 0.6rem 0 0; font-size: 1.5rem;}
+    .menu-secundario ul li a.active::before{left: 0.6rem; padding: 0 0.6rem 0 0; font-size: 1.5rem;}
+
+    .cajas .views-row{width: 100%;}
+
+    /*Experiencia*/
+    .views-field.views-field-field-video, .embedded-video{display: block; width: 100%; min-height: 10px; overflow: hidden; margin: 0 0 1rem 0;}
+    .page-somos-carval-experiencia-carval iframe{float: none; margin: 0px auto; display: block; width: 100%;}
+
+
+    .not-front .region-content-top{margin: 0rem auto 0.5rem auto; max-width: 100%; padding: 0; width: 100%;}
+    .not-front .region-content-top ul{ width: 100%; margin:2rem auto 1rem auto;}
+	.not-front .region-content-top ul li{ width: 17.5rem; height: 5rem; line-height: 5rem; margin: 0 1.5rem 0.5rem 0rem; font-weight: bold;}
+    .not-front .region-content-top ul li:nth-of-type(1){ width: 18.5rem; margin: 0 1.5rem 0.5rem 0.0rem;}
+    .not-front .region-content-top ul li:nth-of-type(3){margin: 0 0rem 0.5rem 0rem;}
+    .not-front .region-content-top ul li:nth-of-type(4){margin: 0rem 1.5rem  0.5rem  0rem;width: 18.5rem;}
+	.not-front .region-content-top ul li:nth-of-type(6){margin: 0 0rem 0.5rem 0rem;}    
+    .not-front .region-content-top ul li a{font-size: 1.2em;}
+
+    .not-front .region-content-top .item-list li{width: 100% !important;}
+
+    .node-responsabilidad-corporativa .content{margin-bottom: 4rem;}
+    .node-responsabilidad-corporativa .content .field-name-field-subtitulo-2{ margin: 1rem 0 0 0;}
+
+    /*Productos y Servicios*/
+    .node-type-tipos-productos .cajas{width: 100%;}
+    .node-type-tipos-productos .cajas form select{width: 17.6rem;}
+    .node-type-tipos-productos .views-exposed-form .views-exposed-widget{margin: 1rem 0 0 0;}
+
+    /*Trabaje con Nosotros */
+    .page-eform-submit-trabaja-con-nosotros .group-nivel-ingles .field-type-entityreference select{width: 98%;}
+    form label {font-size: 1.22rem;}
+
+    .page-eform-submit-trabaja-con-nosotros .field-multiple-table .padding-estudios .field-type-text{width: 100% !important;}
+    .page-eform-submit-trabaja-con-nosotros section.main .wrapper form.entitytype-trabaja_con_nosotros-form div .field-type-datetime{}
+    .page-eform-submit-trabaja-con-nosotros #edit-field-estudios-und-0-field-fecha-de-finalizaci-n{margin: 0px 0% 1% 0 !important;}
+    .page-eform-submit-trabaja-con-nosotros .field-multiple-table .padding-estudios .form-item-field--estudios-und-0-field-fecha-de-finalizaci-n-und-0-value{
+    width: 13.5rem; margin-right: 0px;}
+
+    .page-eform-submit-trabaja-con-nosotros .form-item-field-fecha-de-nacimiento--und-0-value{width: 100% !important;}
+    .page-eform-submit-trabaja-con-nosotros #edit-field-fecha-de-nacimiento-und-0-value{width: 100%;}
+    .page-eform-submit-trabaja-con-nosotros .form-item-field-fecha-de-nacimiento--und-0-value-date{width: 100%;}
+
+    .page-eform-submit-trabaja-con-nosotros #edit-field-nivel-seg-n-la-certificaci-und{width: 100%;}
+
+    .page-eform-submit-trabaja-con-nosotros #entityform_trabaja_con_nosotros_form_group_nivel_ingles{height: 15.5rem;}
+    .page-eform-submit-trabaja-con-nosotros #edit-field-certificaci-n-{width: 100%; margin: 0 0 1rem 0;}
+    .page-eform-submit-trabaja-con-nosotros #edit-field-certificaci-n- select{width: 100%;}
+    .page-eform-submit-trabaja-con-nosotros #edit-field-nivel-seg-n-la-certificac{width: 100%; margin: 0 0 1rem 0;}
+    .page-eform-submit-trabaja-con-nosotros #edit-field-nivel-seg-n-la-certificac select{width: 100%;}
+    .page-eform-submit-trabaja-con-nosotros #edit-field-nivel-seg-n-la-certificac{width: 100%;}
+    
+    .page-eform-submit-trabaja-con-nosotros #edit-field-experiencia-und-0-field-descripci-n-de-funciones{margin-bottom: 2px;}
+
+    .page-eform-submit-trabaja-con-nosotros #field-referencias-personales-add-more-wrapper .fieldset-description {position: absolute; bottom: 28px; }
+
+    /*Resultados de Busqueda*/
+    .search-form {margin-top: 1.5rem; }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 800px) {
+	/*Responsabilidad*/
+    .views-slideshow-bxslider li{width: 24.69rem !important; }
+}
+
+
+

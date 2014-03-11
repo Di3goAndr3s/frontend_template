@@ -1,0 +1,1378 @@
+body {
+  color: #555555;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.4rem;
+  line-height: 100%;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  line-height: normal;
+  margin: 0 0 1rem;
+}
+
+p:last-child {
+  margin: 0;
+}
+
+a {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.tipo {
+  color: #555555;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.4rem;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.tipo2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.4rem;
+  line-height: 100%;
+  font-weight: 400;
+  color: #959595;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.block {
+  display: block;
+}
+
+.none {
+  display: none;
+}
+
+.hide {
+  display: none;
+  visibility: hidden;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.tcenter {
+  text-align: center;
+}
+
+.tleft {
+  text-align: left;
+}
+
+.tright {
+  text-align: right;
+}
+
+.tjusti {
+  text-align: justify;
+}
+
+.icono {
+  font-family: FontAwesome;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* .font-size(@font-size: 16){
+    @pxFontValue: (@font-size / 10);
+    @pxLineValue: (@font-size / 10 * 1.5);
+    font-size: @font-size * .1rem;
+    line-height: @font-size * 1.5 * .1rem;
+    font-size: ~"@{pxFontValue}rem";
+    line-height: ~"@{pxLineValue}rem";
+} */
+
+.upper {
+  text-transform: uppercase;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.h100 {
+  height: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.transparent {
+  background: rgba(0, 0, 0, 0);
+}
+
+.cero {
+  margin: 0;
+  padding: 0;
+}
+
+.reset {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+.borderfix {
+  border: 0.1rem solid rgba(0, 0, 0, 0);
+}
+
+.b1 {
+  border: .1rem solid red;
+}
+
+.b2 {
+  border: .1rem solid blue;
+}
+
+.b3 {
+  border: .1rem solid green;
+}
+
+.clear {
+  clear: both;
+}
+
+.100 {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  list-style: none;
+  background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+*:focus {
+  outline: none;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.box {
+  display: box;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: horizontal;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: horizontal;
+  box-orient: horizontal;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+a {
+  -webkit-transition: all ease-out 0.2s;
+  transition: all ease-out 0.2s;
+}
+
+.form-item,
+.form-actions {
+  margin: 0;
+}
+
+.clearfix {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 100%;
+}
+
+.tabs,
+.front #page-title,
+#first-time,
+.context-block,
+.context-block-region,
+.contextual-links-wrapper,
+.titulo-oculto {
+  display: none;
+}
+
+.sistema {
+  position: fixed;
+  z-index: 99999;
+  top: 15%;
+  right: 0;
+  width: 30rem;
+}
+
+.white {
+  color: white;
+}
+
+.node-type-somoscarval .region-content-top ul.menu li:nth-child(1) a,
+.page-somos-carval .region-content-top ul.menu li:nth-child(1) a,
+.page-eform-submit-trabaja-con-nosotros .region-content-top ul.menu li:nth-child(1) a {
+  background: #39a9dc;
+}
+
+.node-type-somoscarval .region-content-top ul.menu li:nth-child(2) a,
+.page-somos-carval .region-content-top ul.menu li:nth-child(2) a,
+.page-eform-submit-trabaja-con-nosotros .region-content-top ul.menu li:nth-child(2) a {
+  background: #269fd6;
+}
+
+.node-type-somoscarval .region-content-top ul.menu li:nth-child(3) a,
+.page-somos-carval .region-content-top ul.menu li:nth-child(3) a,
+.page-eform-submit-trabaja-con-nosotros .region-content-top ul.menu li:nth-child(3) a {
+  background: #228fc0;
+}
+
+.node-type-somoscarval .region-content-top ul.menu li:nth-child(4) a,
+.page-somos-carval .region-content-top ul.menu li:nth-child(4) a,
+.page-eform-submit-trabaja-con-nosotros .region-content-top ul.menu li:nth-child(4) a {
+  background: #1e7eaa;
+}
+
+.node-type-somoscarval .region-content-top ul.menu li:nth-child(5) a,
+.page-somos-carval .region-content-top ul.menu li:nth-child(5) a,
+.page-eform-submit-trabaja-con-nosotros .region-content-top ul.menu li:nth-child(5) a {
+  background: #1a6e95;
+}
+
+.node-type-somoscarval .region-content-top ul.menu li:nth-child(6) a,
+.page-somos-carval .region-content-top ul.menu li:nth-child(6) a,
+.page-eform-submit-trabaja-con-nosotros .region-content-top ul.menu li:nth-child(6) a {
+  background: #165e7f;
+}
+
+.node-type-divisiones-de-negocio .menu-secundario ul li:nth-child(1) a,
+.node-type-responsabilidad-corporativa .menu-secundario ul li:nth-child(1) a,
+.page-noticias .region-content-top ul li:nth-child(1) a,
+.node-type-eventos .region-content-top ul li:nth-child(1) a {
+  background: #e89104;
+}
+
+.node-type-divisiones-de-negocio .menu-secundario ul li:nth-child(2) a,
+.node-type-responsabilidad-corporativa .menu-secundario ul li:nth-child(2) a {
+  background: #d98804;
+}
+
+.node-type-divisiones-de-negocio .menu-secundario ul li:nth-child(3) a,
+.node-type-responsabilidad-corporativa .menu-secundario ul li:nth-child(3) a {
+  background: #ca7e03;
+}
+
+.node-type-divisiones-de-negocios .menu-secundario ul li:nth-child(4) a,
+.node-type-responsabilidad-corporativa .menu-secundario ul li:nth-child(4) a {
+  background: #bb7503;
+}
+
+.node-type-divisiones-de-negocio .menu-secundario ul li:nth-child(5) a,
+.node-type-responsabilidad-corporativa .menu-secundario ul li:nth-child(5) a {
+  background: #ac6b03;
+}
+
+.node-type-divisiones-de-negocio .menu-secundario ul li:nth-child(6) a,
+.node-type-responsabilidad-corporativa .menu-secundario ul li:nth-child(6) a {
+  background: #9d6203;
+}
+
+.node-type-divisiones-de-negocio .menu-secundario ul li:nth-child(7) a,
+.node-type-responsabilidad-corporativa .menu-secundario ul li:nth-child(7) a {
+  background: #e89104;
+}
+
+.node-type-divisiones-de-negocio .menu-secundario ul li:nth-child(8) a,
+.node-type-responsabilidad-corporativa .menu-secundario ul li:nth-child(8) a {
+  background: #d98804;
+}
+
+.node-type-divisiones-de-negocio .menu-secundario ul li:nth-child(9) a,
+.node-type-responsabilidad-corporativa .menu-secundario ul li:nth-child(9) a {
+  background: #ca7e03;
+}
+
+.node-type-divisiones-de-negocio .menu-secundario ul li:nth-child(10) a,
+.node-type-responsabilidad-corporativa .menu-secundario ul li:nth-child(10) a {
+  background: #bb7503;
+}
+
+.node-type-divisiones-de-negocio .menu-secundario ul li:nth-child(11) a,
+.node-type-responsabilidad-corporativa .menu-secundario ul li:nth-child(11) a {
+  background: #ac6b03;
+}
+
+.node-type-divisiones-de-negocio .menu-secundario ul li:nth-child(12) a,
+.node-type-responsabilidad-corporativa .menu-secundario ul li:nth-child(12) a,
+.page-noticias .region-content-top ul li:nth-child(2) a,
+.node-type-eventos .region-content-top ul li:nth-child(2) a {
+  background: #9d6203;
+}
+
+.node-type-tipos-productos .menu-secundario ul li:nth-child(1) a {
+  background: #28a6a6;
+}
+
+.node-type-tipos-productos .menu-secundario ul li:nth-child(2) a {
+  background: #239191;
+}
+
+.node-type-tipos-productos .menu-secundario ul li:nth-child(3) a {
+  background: #1e7d7d;
+}
+
+.node-type-tipos-productos .menu-secundario ul li:nth-child(4) a {
+  background: #196868;
+}
+
+.page-taxonomy-term .menu-secundario ul li:nth-child(1) a {
+  background: #28a6a6;
+}
+
+.page-taxonomy-term .menu-secundario ul li:nth-child(2) a {
+  background: #239191;
+}
+
+.page-taxonomy-term .menu-secundario ul li:nth-child(3) a {
+  background: #1e7d7d;
+}
+
+.page-taxonomy-term .menu-secundario ul li:nth-child(4) a {
+  background: #196868;
+}
+
+.vco-timeline .vco-navigation .timenav .content .marker:nth-of-type(1) .flag .flag-content h3,
+.vco-timeline .vco-navigation .timenav .content .marker:nth-of-type(1) .flag-small .flag-content h3 {
+  color: #e89104;
+}
+
+.vco-timeline .vco-navigation .timenav .content .marker:nth-of-type(2) .flag .flag-content h3,
+.vco-timeline .vco-navigation .timenav .content .marker:nth-of-type(2) .flag-small .flag-content h3 {
+  color: #39a9dc;
+}
+
+.vco-timeline .vco-navigation .timenav .content .marker:nth-of-type(3) .flag .flag-content h3,
+.vco-timeline .vco-navigation .timenav .content .marker:nth-of-type(3) .flag-small .flag-content h3 {
+  color: #004f5b;
+}
+
+.vco-timeline .vco-navigation .timenav .content .marker:nth-of-type(4) .flag .flag-content h3,
+.vco-timeline .vco-navigation .timenav .content .marker:nth-of-type(4) .flag-small .flag-content h3 {
+  color: #e89104;
+}
+
+.vco-timeline .vco-navigation .timenav .content .marker:nth-of-type(5) .flag .flag-content h3,
+.vco-timeline .vco-navigation .timenav .content .marker:nth-of-type(5) .flag-small .flag-content h3 {
+  color: #39a9dc;
+}
+
+.vco-timeline .vco-navigation .timenav .content .marker:nth-of-type(6) .flag .flag-content h3,
+.vco-timeline .vco-navigation .timenav .content .marker:nth-of-type(6) .flag-small .flag-content h3 {
+  color: #004f5b;
+}
+
+.page-somos-carval .region-content-top ul.menu li.active-trail a {
+  position: relative;
+}
+
+.page-somos-carval .region-content-top ul.menu li.active-trail a::before {
+  content: "";
+  position: absolute;
+  text-align: center;
+  z-index: 999;
+  font-size: 2rem;
+  line-height: 5rem;
+  font-weight: 100;
+  color: white;
+  border: none;
+  top: 0rem;
+  left: 0rem;
+  height: 5rem;
+  border-right: thin solid #fff;
+  padding: 0 2rem 0 0;
+  width: 3.6rem;
+  background: url('../img/ico-carval.png') no-repeat center center;
+}
+
+.menu-secundario ul li a.active {
+  position: relative;
+}
+
+.menu-secundario ul li a.active::before {
+  content: "";
+  position: absolute;
+  text-align: center;
+  z-index: 999;
+  font-size: 2rem;
+  line-height: 5rem;
+  font-weight: 100;
+  color: white;
+  border: none;
+  top: 0rem;
+  left: 0rem;
+  height: 5rem;
+  border-right: thin solid #fff;
+  padding: 0 2rem 0 0;
+  width: 3.6rem;
+  background: url('../img/ico-carval.png') no-repeat center center;
+}
+
+.page-noticias .region-content-top ul li.active-trail a {
+  position: relative;
+}
+
+.page-noticias .region-content-top ul li.active-trail a::before {
+  position: absolute;
+  text-align: center;
+  z-index: 999;
+  font-size: 2rem;
+  line-height: 5rem;
+  font-weight: 100;
+  color: white;
+  border: none;
+  top: 0rem;
+  left: 0rem;
+  height: 5rem;
+  border-right: thin solid #fff;
+  padding: 0 2rem 0 0;
+  width: 3.6rem;
+  background: url('../img/ico-carval.png') no-repeat center center;
+}
+
+.node-type-eventos .region-content-top ul li.active-trail a {
+  position: relative;
+}
+
+.node-type-eventos .region-content-top ul li.active-trail a::before {
+  position: absolute;
+  text-align: center;
+  z-index: 999;
+  font-size: 2rem;
+  line-height: 5rem;
+  font-weight: 100;
+  color: white;
+  border: none;
+  top: 0rem;
+  left: 0rem;
+  height: 5rem;
+  border-right: thin solid #fff;
+  padding: 0 2rem 0 0;
+  width: 3.6rem;
+  background: url('../img/ico-carval.png') no-repeat center center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 599px) {
+  .region-branding {
+    width: 100%;
+    text-align: center;
+    float: none;
+    margin: 1rem auto 1.5rem;
+  }
+
+  .region-branding img {
+    margin: 0rem auto 0rem;
+    float: none;
+  }
+
+  .region-branding a {
+    margin: 0rem auto 0rem;
+    text-align: center;
+    float: none;
+  }
+
+  .region-buscador {
+    width: 20rem;
+    margin: 0rem 0 1rem 0rem;
+    float: none;
+  }
+
+  .region-idiomas {
+    margin: .8rem 0rem 0 0rem;
+    float: right;
+  }
+
+  .region-menu-superior {
+    height: 4.5rem;
+    width: 32.8rem;
+    float: none;
+  }
+
+  .node-type-home .region-banner {
+    display: none;
+  }
+
+  /*Contenidos*/
+
+  .front .region-menu-principal {
+    margin: 1rem auto 0.5rem auto;
+    max-width: 95%;
+    padding: 0;
+    width: 95%;
+  }
+
+  .front .region-menu-principal ul.menu li {
+    width: 100%;
+    /*height: 4rem;*/
+    line-height: 4rem;
+    margin: 0 1.5rem 0.5rem 0rem;
+    font-weight: bold;
+  }
+
+  .front .region-menu-principal ul.menu > li:nth-of-type(1) {
+    width: 100%;
+    margin: 0 1.5rem 0.5rem 0rem;
+  }
+
+  .front .region-menu-principal ul.menu > li:nth-of-type(4) {
+    margin: 0 0rem 0.5rem 0rem;
+  }
+
+  .front .region-menu-principal ul.menu > li a {
+    font-size: 1.4rem;
+  }
+
+  .front .region-menu-principal ul.menu > li > ul.menu {
+    position: relative;
+    height: auto;
+    padding: 1.5rem 1rem 1rem;
+    overflow: hidden;
+    top: 0;
+  }
+
+  .front .region-menu-principal ul.menu li:nth-of-type(2) ul.menu::before,
+  .front .region-menu-principal ul.menu li:nth-of-type(4) ul.menu::before {
+    width: 0;
+    height: 0;
+    border-bottom: 1rem solid #e89104;
+    border-left: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+    position: absolute;
+    content: '';
+    z-index: 9999;
+    top: 0;
+    left: 50%;
+    margin: 0 0 0 -0.5rem;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+  .front .region-menu-principal ul.menu li:nth-of-type(1) ul.menu::before {
+    width: 0;
+    height: 0;
+    border-bottom: 1rem solid #39a9dc;
+    border-left: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+    position: absolute;
+    content: '';
+    z-index: 9999;
+    top: 0;
+    left: 50%;
+    margin: 0 0 0 -0.5rem;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+  .front .region-menu-principal ul.menu li:nth-of-type(3) ul.menu::before {
+    width: 0;
+    height: 0;
+    border-bottom: 1rem solid #28a6a6;
+    border-left: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+    position: absolute;
+    content: '';
+    z-index: 9999;
+    top: 0;
+    left: 50%;
+    margin: 0 0 0 -0.5rem;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+  .modulo-laboratorio-animed {
+    width: 100%;
+    float: none;
+    margin: 1rem 0;
+    height: 26.5rem;
+  }
+
+  .modulo-laboratorio-animed .field-name-field-titulo {
+    width: 100%;
+  }
+
+  .modulo-laboratorio-animed .field-name-field-imagen {
+    display: none;
+  }
+
+  .modulo-laboratorio-animed .field-name-field-subtitulo {
+    width: 100%;
+  }
+
+  .modulo-laboratorio-animed .field-name-field-descripcion-historia {
+    width: 100%;
+  }
+
+  .modulo-noticias-home {
+    width: 100%;
+    margin: 0;
+    height: 26.5rem;
+  }
+
+  .modulo-noticias-home .field-name-titulo-home-noticias {
+    width: 100%;
+  }
+
+  .modulo-noticias-home .field-name-field-imagen {
+    display: none;
+  }
+
+  .modulo-noticias-home .field-name-title {
+    width: 100%;
+  }
+
+  .modulo-noticias-home .field-name-field-descripcion {
+    width: 100%;
+    float: none;
+  }
+
+  /*Header*/
+
+  .wrapper {
+    width: 95%;
+  }
+
+  .region-menu-superior {
+    margin: 0rem auto 1rem auto;
+    height: 4.5rem;
+    width: 100%;
+    display: block;
+  }
+
+  .region-menu-superior ul {
+    margin: 0px auto;
+    width: 33rem;
+  }
+
+  .publicidad-home .views-field-field-image {
+    width: 19rem;
+    margin: 1rem auto 1rem;
+    float: none;
+    padding: 1rem 0 0;
+  }
+
+  .publicidad-home .views-field-field-descripcion-2 {
+    width: 90%;
+    margin: 0rem auto 1rem;
+    float: none;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .publicidad-home .views-field-field-descripcion-2 strong {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  .publicidad-home {
+    height: 23rem !important;
+    padding: 0rem !important;
+    margin: 1rem 0 0;
+  }
+
+  .publicidad-home .views-field-field-imagen-fondo-publicidad {
+    height: 100%;
+  }
+
+  .publicidad-home .views-field-field-enlace-publicidad {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+  }
+
+  .publicidad-home .views-field-field-enlace-publicidad a {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  footer {
+    height: 18rem;
+  }
+
+  /*Footer*/
+
+  .region-footer-logo {
+    margin: 1.4rem 0 0;
+    width: 52%;
+  }
+
+  .region-footer-logo img {
+    width: 14.2rem;
+    height: 3.5rem;
+    margin: 1.7rem 1rem 0 0;
+  }
+
+  .region-footer-menu {
+    margin: 1.3rem 0 0 2rem;
+    width: 40%;
+    float: left;
+  }
+
+  .footer-autor a {
+    font-size: 1.1rem;
+  }
+
+  .region-footer-menu ul.menu li a {
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+  }
+
+  .region-footer-copy {
+    width: 100%;
+    display: block;
+    float: none;
+    margin: 0.6rem auto auto auto;
+    text-align: center;
+    min-height: 10px;
+    overflow: hidden;
+  }
+
+  .region-footer-copy .views-field-field-descripcion {
+    float: none;
+    font-size: 1.1rem;
+  }
+
+  .region-footer-ahorranito {
+    width: 100%;
+    margin: 0.4rem auto auto auto;
+  }
+
+  .footer-autor {
+    width: 18rem;
+    margin: 0px auto;
+    float: none;
+  }
+
+  /*Internas*/
+
+  .not-front .region-menu-principal {
+    margin: 1.5rem auto 0.5rem auto;
+    max-width: 95%;
+    padding: 0;
+    width: 95%;
+  }
+
+  .not-front .region-menu-principal ul.menu li {
+    width: 100%;
+    /*height: 4rem;*/
+    line-height: 4rem;
+    margin: 0 1.5rem 0.5rem 0rem;
+    font-weight: bold;
+  }
+
+  .not-front .region-menu-principal ul.menu > li:nth-of-type(1) {
+    width: 100%;
+    margin: 0 1.5rem 0.5rem 0rem;
+  }
+
+  .not-front .region-menu-principal ul.menu > li:nth-of-type(4) {
+    margin: 0 0rem 0.5rem 0rem;
+    width: 100%;
+  }
+
+  .not-front .region-menu-principal ul.menu > li a {
+    font-size: 1.2em;
+  }
+
+  .not-front .region-menu-principal ul.menu > li > ul.menu {
+    position: relative;
+    height: auto;
+    padding: 1.5rem 1rem 0rem;
+    overflow: hidden;
+    top: 0;
+  }
+
+  .page-noticias .region-content-top ul.menu {
+    margin: 1.2rem 0 0;
+  }
+
+  .page-noticias .region-content-top ul.menu li {
+    width: 48%;
+    margin: 0;
+  }
+
+  .page-noticias .region-content-top ul.menu li:nth-of-type(1) {
+    float: left;
+  }
+
+  .page-noticias .region-content-top ul.menu li:nth-of-type(2) {
+    float: right;
+  }
+
+  .cajas .views-row {
+    width: 100%;
+  }
+
+  .page-noticias .region-content-top ul li.active-trail a {
+    position: relative;
+  }
+
+  .page-noticias .region-content-top ul li.active-trail a::before {
+    position: absolute;
+    text-align: center;
+    z-index: 999;
+    font-size: 2rem;
+    line-height: 5rem;
+    font-weight: 100;
+    color: white;
+    border: none;
+    top: 0rem;
+    left: 0rem;
+    height: 5rem;
+    border-right: thin solid #fff;
+    padding: 0 2rem 0 0;
+    width: 3.6rem;
+    background: url('../img/ico-carval.png') no-repeat center center;
+  }
+
+  .node-type-eventos .region-content-top ul li.active-trail a {
+    position: relative;
+  }
+
+  .node-type-eventos .region-content-top ul li.active-trail a::before {
+    position: absolute;
+    text-align: center;
+    z-index: 999;
+    font-size: 2rem;
+    line-height: 5rem;
+    font-weight: 100;
+    color: white;
+    border: none;
+    top: 0rem;
+    left: 0rem;
+    height: 5rem;
+    border-right: thin solid #fff;
+    padding: 0 2rem 0 0;
+    width: 3.6rem;
+    background: url('../img/ico-carval.png') no-repeat center center;
+  }
+
+  .node-type-somoscarval .cajas .views-field-field-video iframe,
+  .page-somos-carval .cajas .embedded-video iframe,
+  .cajas .field-name-field-video iframe,
+  .cajas .views-field-field-video iframe {
+    height: 19rem;
+    width: 100%;
+    z-index: 10;
+    padding: 0 0 1rem;
+    margin: 0rem auto 0rem;
+  }
+
+  .node-type-eventos .region-content-top ul.menu {
+    margin: 0rem 0 0;
+  }
+
+  .node-type-eventos .region-content-top ul.menu li {
+    width: 48%;
+    margin: 0;
+  }
+
+  .node-type-eventos .region-content-top ul.menu li:nth-of-type(1) {
+    float: left;
+  }
+
+  .node-type-eventos .region-content-top ul.menu li:nth-of-type(2) {
+    float: right;
+  }
+
+  .node-type-eventos .field-name-field-video {
+    width: 100%;
+    height: 19rem;
+    z-index: 10;
+    margin: 0 0rem 1.5rem 0;
+    float: none;
+  }
+
+  .node-type-eventos .field-name-field-video iframe {
+    width: 100%;
+    height: 19rem;
+  }
+
+  .node-type-eventos .field-name-field-titulo {
+    margin: 1.5rem 0;
+  }
+
+  /*Productos y Servicios*/
+
+  .node-type-tipos-productos .cajas {
+    width: 100%;
+  }
+
+  .page-eform-submit-trabaja-con-nosotros .region-content-top ul.menu li,
+  .region-content-top ul.menu li,
+  .menu-secundario ul li,
+  .node-type-divisiones-de-negocio .menu-secundario ul li,
+  .node-type-webform .region-content-top ul.menu li,
+  .node-type-somoscarval .region-content-top ul.menu li,
+  .page-somos-carval .region-content-top ul.menu li,
+  .node-type-divisiones-de-negocio .menu-secundario ul li {
+    float: left;
+    margin: .5rem 0rem 0rem 0rem;
+    width: 100%;
+  }
+
+  .node-type-divisiones-de-negocio .region-content-top .menu-secundario ul li {
+    float: left;
+    margin: .5rem 0rem 0rem 0rem;
+    width: 100%;
+  }
+
+  .page-eform-submit-trabaja-con-nosotros .region-content-top ul.menu li a,
+  .region-content-top ul.menu li a,
+  .menu-secundario ul li a,
+  .node-type-divisiones-de-negocio .menu-secundario ul li a,
+  .node-type-webform .region-content-top ul.menu li a,
+  .node-type-somoscarval .region-content-top ul.menu li a,
+  .page-somos-carval .region-content-top ul.menu li a,
+  .node-type-divisiones-de-negocio .menu-secundario ul li a,
+  .view-productos-y-servicios .menu-secundario ul li a {
+    font-size: 1.6rem;
+    line-height: 5rem;
+    font-weight: 400;
+  }
+
+  .page-eform-submit-trabaja-con-nosotros .region-content-top ul.menu li:nth-of-type(4),
+  .page-somos-carval .region-content-top ul.menu li:nth-of-type(4),
+  .menu-secundario ul li:nth-of-type(4) {
+    margin: .5rem 0rem 0rem 0rem;
+  }
+
+  .easy-breadcrumb a {
+    font-size: 1.3rem;
+    line-height: 100%;
+    font-weight: 700;
+  }
+
+  .easy-breadcrumb span {
+    font-size: 1.3rem;
+    line-height: 100%;
+    font-weight: 700;
+  }
+
+  .easy-breadcrumb_segment-separator {
+    width: .7rem;
+    margin: .4rem .5rem 0 .4rem;
+    height: .7rem;
+    display: block;
+    border-radius: 50%;
+    background: #484848;
+    border: thin solid #ffffff;
+  }
+
+  .page-somos-carval-experiencia-carval iframe {
+    max-width: 100%;
+    width: 100%;
+    height: 24rem;
+    margin: 0 0 1.5rem;
+  }
+
+  .page-somos-carval-experiencia-carval .views-field-field-subtitulo-5 {
+    margin: 1.5rem 0 3rem;
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 100%;
+  }
+
+  .page-somos-carval-carval-mundo .view-mapa {
+    width: 100%;
+    margin: 0 0rem 2rem 0;
+    border: thin solid #d4d4d4;
+    float: none;
+  }
+
+  .page-somos-carval-carval-mundo .field-name-field-imagen-slider-sedes {
+    float: none;
+    margin: 0 0 1rem 0;
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 100%;
+  }
+
+  .titulo-seccion,
+  .bloque-titulo,
+  .node-type-eventos .views-field-field-secciones {
+    font-size: 2rem;
+  }
+
+  .page-somos-carval-carval-mundo .field-name-field-titulo {
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 100%;
+  }
+
+  .field-name-field-imagen img {
+    float: left;
+    height: auto;
+    margin: 0 15px 10px 0;
+    width: 100%;
+  }
+
+  .field-name-field-descripcion a {
+    word-break: break-all;
+  }
+
+  .node-type-tipos-productos .region-content-bottom form {
+    width: 30rem;
+    clear: both;
+    margin: 1rem 0 0;
+  }
+
+  .node-type-tipos-productos .region-content-bottom .views-exposed-widget select {
+    float: none;
+    min-width: 30rem;
+    margin: 0 0 1rem;
+  }
+
+  .node-type-tipos-productos .view-productos-y-servicios .views-exposed-widgets {
+    max-width: 30rem;
+    width: 30rem;
+    min-width: 30rem;
+    float: none;
+  }
+
+  .node-type-tipos-productos .cajas form .views-submit-button {
+    background: #004f5b;
+    position: relative;
+    height: 3.6rem;
+    width: 3.6rem;
+    padding: 0;
+    float: right;
+    margin: -3.6rem 0 0 0rem;
+  }
+
+  .view-productos-y-servicios .view-filters {
+    margin-bottom: 0rem;
+  }
+
+  .node-type-tipos-productos .cajas .views-field-field-imagen {
+    margin: 0rem;
+    height: 20rem;
+    float: none;
+    width: 100%;
+    clear: both;
+    float: left;
+  }
+
+  .node-type-tipos-productos .cajas .views-field-field-imagen img {
+    height: 20rem;
+  }
+
+  .node-type-tipos-productos .cajas .views-field-field-tags-producto {
+    width: 100%;
+    clear: both;
+    float: left;
+  }
+
+  .node-type-tipos-productos .cajas .views-field-field-descripcion {
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 100%;
+  }
+
+  .views_slideshow_main li,
+  .views-slideshow-bxslider li {
+    min-width: 303px;
+    float: left;
+  }
+
+  .node-type-responsabilidad-corporativa .region-content-top .menu-secundario ul,
+  .node-type-responsabilidad-corporativa .region-content-top .menu-secundario ul li {
+    margin: 0rem 0 1rem;
+  }
+
+  .node-type-responsabilidad-corporativa .bloque-titulo {
+    margin: 0 0 1rem;
+  }
+
+  .node-type-responsabilidad-corporativa .field-name-field-subtitulo-2 {
+    margin: 1.5rem 0 4rem;
+  }
+
+  .region-content-bottom .menu .expanded span {
+    font-size: 1.4rem;
+  }
+
+  .view-id-contacto {
+    width: 95%;
+  }
+
+  .webform-client-form {
+    width: 95%;
+  }
+
+  .easy-breadcrumb {
+    display: none;
+  }
+
+  .node-type-eventos .field-name-field-video,
+  .node-type-somoscarval .views-field-field-video {
+    width: 100%;
+    margin: 0 0 1rem;
+  }
+
+  .node-type-eventos .field-name-field-video,
+  .node-type-somoscarval .views-field-field-video iframe {
+    height: 18rem;
+  }
+
+  .node-type-somoscarval .views-field-field-descripcion-2 {
+    margin: 0 0 1.5rem;
+  }
+
+  .node-type-somoscarval .region-content-top ul.menu li:nth-of-type(4),
+  .page-somos-carval .region-content-top ul.menu li:nth-of-type(4),
+  .menu-secundario ul li:nth-of-type(4) {
+    margin: .5rem 0rem 0rem 0rem;
+  }
+
+  .page-somos-carval-nuestro-compromiso .views-field-field-imagen {
+    float: none;
+    width: 100%;
+    margin: 0 0rem 1.5rem 0;
+  }
+
+  .error {
+    display: none;
+  }
+
+  .bx-wrapper img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .page-eform-submit-trabaja-con-nosotros .entitytype-trabaja_con_nosotros-form .form-item {
+    min-width: 100%;
+    margin: 0 0 1rem;
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 100%;
+  }
+
+  .page-eform-submit-trabaja-con-nosotros section.main .wrapper form.entitytype-trabaja_con_nosotros-form div .field-type-text {
+    margin: 0 0rem;
+    width: 100%;
+    float: none;
+  }
+
+  .page-eform-submit-trabaja-con-nosotros .entitytype-trabaja_con_nosotros-form .field-name-field-nombres .form-item {
+    padding: 3px 0 10px 3px;
+  }
+
+  .page-eform-submit-trabaja-con-nosotros section.main .wrapper form.entitytype-trabaja_con_nosotros-form div .field-type-entityreference {
+    width: 100%;
+  }
+
+  .page-eform-submit-trabaja-con-nosotros form.entitytype-trabaja_con_nosotros-form select {
+    width: 100%;
+  }
+
+  .page-eform-submit-trabaja-con-nosotros section.main .wrapper form.entitytype-trabaja_con_nosotros-form div .field-group-fieldset {
+    width: 100%;
+    height: 100%;
+  }
+
+  .page-eform-submit-trabaja-con-nosotros .fieldset-description {
+    bottom: 0;
+    position: relative;
+    margin: 0 0 1rem;
+    width: 100%;
+  }
+
+  .page-eform-submit-trabaja-con-nosotros .field-type-field-collection {
+    margin: 0px 0 1rem 0;
+    width: 100%;
+    border: none;
+  }
+
+  #field-referencias-personales-add-more-wrapper .fieldset-description {
+    bottom: 0;
+    position: relative;
+    margin: 0 0 1rem;
+    width: 100%;
+  }
+
+  .page-eform-submit-trabaja-con-nosotros .fieldset-wrapper .field-type-text {
+    width: 100% !important;
+  }
+
+  .node-type-eventos .content .field-name-field-subtitulo {
+    margin: 2rem 0 1rem;
+  }
+
+  .node-type-eventos .field-collection-item-field-galeria-eventos .field-name-field-video {
+    height: 14rem;
+  }
+
+  .node-type-eventos .field-collection-item-field-galeria-eventos .field-name-field-imagen {
+    height: 14rem;
+  }
+
+  .node-type-tipos-productos .cajas .views-field-field-imagen img {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+  }
+}
+
+@media only screen and (width: 480px) and (max-width: 568px) {
+  .node-type-somoscarval .cajas .views-field-field-video iframe,
+  .page-somos-carval .cajas .embedded-video iframe,
+  .cajas .field-name-field-video iframe,
+  .cajas .views-field-field-video iframe {
+    height: 19rem;
+    width: 80%;
+    z-index: 10;
+    padding: 0 0 1rem;
+    margin: 0rem auto 0rem;
+  }
+
+  .easy-breadcrumb {
+    display: block;
+  }
+
+  .node-type-eventos .field-name-field-video {
+    width: 100%;
+    height: 26rem;
+    z-index: 10;
+    margin: 0 0rem 1.5rem 0;
+    float: none;
+  }
+
+  .node-type-eventos .field-name-field-video iframe {
+    width: 100%;
+    height: 26rem;
+  }
+}
+
+@media only screen and (width: 480px) {
+  .views_slideshow_main li,
+  .views-slideshow-bxslider li {
+    min-width: 222px;
+    width: 222px;
+    max-width: 222px;
+    float: left;
+  }
+
+  .node-type-tipos-productos .region-content-bottom form {
+    width: 46rem;
+    clear: both;
+    margin: 1rem 0 0;
+  }
+
+  .node-type-tipos-productos .region-content-bottom .views-exposed-widget select {
+    float: none;
+    min-width: 46rem;
+    margin: 0 0 1rem;
+  }
+
+  .node-type-tipos-productos .view-productos-y-servicios .views-exposed-widgets {
+    max-width: 46rem;
+    width: 46rem;
+    min-width: 46rem;
+    float: none;
+  }
+
+  .node-type-tipos-productos .cajas form input[type="text"] {
+    width: 46rem;
+  }
+
+  .node-type-tipos-productos .cajas form .views-submit-button {
+    background: #004f5b;
+    position: relative;
+    height: 3.6rem;
+    width: 3.6rem;
+    padding: 0;
+    float: right;
+    margin: -3.6rem 0 0 0rem;
+  }
+}
+
+@media only screen and (width: 320px) {
+  .bx-wrapper ul li {
+    display: inline;
+    float: left;
+    height: 30rem;
+    overflow: auto;
+    border: 0.1rem solid rgba(0, 0, 0, 0);
+  }
+}

@@ -1,0 +1,1815 @@
+.vermenos, .vermas  {
+width: 5rem;
+  height: 5rem;
+////  border-bottom: 3rem solid @gris-light1;
+////  border-left: 3rem solid transparent;
+////  border-right: 3rem solid transparent;
+  .absolute;
+  .z(9999);
+  bottom: 0rem;
+  right: 0rem;
+//.rotate(45deg);
+//  .fondo(@verde;)
+}
+
+.cajas .views-field-field-descripcion, .cajas .field-name-field-descripcion{
+
+}
+
+
+.vermas::before {
+
+
+   content: "+";
+
+  .absolute;
+  .tcenter;
+  .z(99999);
+  .fs(2.7rem);
+  color: @gris-dark2;
+  border: none;
+  bottom: 0rem;
+  right: .7rem;
+  font-weight: 400;
+
+}
+
+.vermenos::before {
+
+   content: "-";
+
+   .absolute;
+  .tcenter;
+  .z(99999);
+  .fs(2.7rem);
+  color: @gris-dark2;
+  border: none;
+  bottom: 0rem;
+  right: .7rem;
+  font-weight: 400;
+}
+
+
+
+
+//MENÚ SUPERIOR
+
+.region-menu-superior ul li, .ul li.leaf {
+  .relative;
+  .left;
+}
+
+.region-menu-superior ul li a {
+  .borderfix;
+  .transition;
+  .br;
+  color: @gris-dark1;
+  .fs(1.4rem, 100%);
+  .tcenter;
+  .block;
+  margin: 0 1rem;
+  padding: .8rem 1.5rem 0;
+  max-width: 10rem;
+  height: 4.5rem;
+  .transition;
+  &:hover{
+    .amarillo;
+    border: thin solid @oro;
+    .white;
+  }
+}
+
+.region-menu-superior ul li a.active {
+  .amarillo;
+  border: thin solid @oro;
+  .white;
+}
+
+.region-menu-superior ul li:nth-of-type(2)::before {
+  content: '';
+  .absolute;
+  width: .1rem;
+  height: 3rem;
+  border-left: thin solid @gris-light1;
+  background: @gris-light2;
+  left: 0;
+  top: .8rem;
+  .br;
+}
+.region-menu-superior ul li:nth-of-type(2)::after {
+  content: '';
+  .absolute;
+  width: .1rem;
+  height: 3rem;
+  border-left: thin solid @gris-light1;
+  background: @gris-light2;
+  right: 0;
+  top: .8rem;
+  .br;
+}
+
+
+//IDIOMAS
+
+
+.region-idiomas li {
+  .fs(1.2rem, 100%);
+  .left;
+  .upper;
+
+}
+.region-idiomas li a {
+  color: @gris-dark1;
+  .upper;
+  .fs(1.2rem, 100%);
+  &:hover{.c-verde;}
+}
+.region-idiomas li.active a {
+  .c-verde;
+}
+.region-idiomas li.en {
+  .relative;
+  padding: 0 1rem 0 0;
+}
+.region-idiomas li.es {
+  .relative;
+  padding: 0 0 0 .5rem;
+}
+.region-idiomas li.en::after {
+  content: "/";
+  .absolute;
+  right: 0;
+  top: -0.1rem;
+  .fs(1.2rem, 100%);
+  color: @gris-dark1;
+}
+
+//BUSCADOR
+
+.region-buscador input[type="search"] {
+  .relative;
+  .left;
+  background: @gris-light3;
+  border: thin solid @gris-light2;
+  .transition(.5s);
+  height: 2.6rem;
+  width: 100%;
+  .fs(1.4rem, 2.6rem, 400);
+  .cero;
+  color: @gris-dark1;
+  text-indent: 1rem;
+  &:focus {
+    background: @gris-light4;
+    border: thin solid @gris-light2;
+  }
+}
+
+.region-buscador .form-submit {
+.z(999999);
+   height: 2.7rem;
+  right: -.1rem;
+  .absolute;
+  top: 0rem;
+  text-indent: -999rem;
+  width: 2.7rem;
+  .fondo(transparent);
+  cursor: pointer;
+}
+
+#search-block-form {
+.z(2);
+  .relative;
+}
+
+.region-buscador .form-actions {
+.verde(1);
+  min-height: 2.7rem;
+  width: 2.7rem;
+  right: -.1rem;
+  .absolute;
+  top: 0rem;
+  .z(1);
+  text-indent: -999rem;
+  .transition;
+
+  &:focus {
+    .verde(.8);
+  }
+
+}
+
+//#search-block-form::before {
+//  content: "\f002";
+//  .icono;
+//  .absolute;
+//  .tcenter;
+//  right: .6rem;
+//  top: .6rem;
+//  .z(3);
+//  .white;
+//}
+
+
+//BANNER
+
+.region-banner img {
+  max-width: 117rem;
+  width: 100%;
+  height: 43.5rem;
+}
+
+.region-banner .views-row {
+  .relative;
+}
+.region-banner .views-row-1 {
+  .absolute;
+  top: 0;
+  left: 0;
+  .z(99);
+}
+.region-banner .views-row-2 {
+  .absolute;
+  top: 0;
+  left: 0;
+  .z(98);
+}
+.region-banner .views-row-3 {
+  .absolute;
+  top: 0;
+  left: 0;
+  .z(97);
+}
+.region-banner .views-row-4x {
+  .absolute;
+  top: 0;
+  left: 0;
+  .z(96);
+}
+.region-banner .views-row-1 .field-name-field-titulo {
+  .azul;
+  .tright;
+  .absolute;
+  .white;
+  .fs(4.8rem,100%);
+  .fw(700);
+  max-width: 92%;
+  top: 8rem;
+  right: 5rem;
+  padding: 1.5rem 2rem;
+
+}
+.region-banner .views-row-1 .field-name-field-descripcion {
+  .azul;
+  .white;
+  .fs(1.6rem,100%);
+  .tright;
+  .absolute;
+  top: 17rem;
+  right: 5rem;
+  max-width: 92%;
+  padding: 1.5rem 2rem;
+}
+.region-banner .views-row-2 .field-name-field-titulo {
+  .amarillo;
+  .tright;
+  .absolute;
+  .white;
+  .fs(4.8rem,100%,700);
+  .fw(700);
+  max-width: 92%;
+  top: 8rem;
+  right: 5rem;
+  padding: 1.5rem 2rem;
+
+}
+.region-banner .views-row-2 .field-name-field-descripcion {
+  .amarillo;
+  .white;
+  .fs(1.6rem,100%);
+  .tright;
+  .absolute;
+  top: 17rem;
+  right: 5rem;
+  padding: 1.5rem 2rem;
+  max-width: 92%;
+
+}
+.region-banner .views-row-3 .field-name-field-titulo {
+  .verde-dark;
+  .tright;
+  .absolute;
+  .white;
+  .fs(4.8rem,100%,700);
+  .fw(700);
+  top: 8rem;
+  right: 5rem;
+  padding: 1.5rem 2rem;
+  max-width: 92%;
+
+}
+.region-banner .views-row-3 .field-name-field-descripcion {
+  .verde-dark;
+  .white;
+  .fs(1.6rem,100%);
+  .tright;
+  .absolute;
+  top: 17rem;
+  right: 5rem;
+  padding: 1.5rem 2rem;
+  max-width: 92%;
+
+
+}
+.region-banner .views-row-4 .field-name-field-titulo {
+  .amarillo;
+  .tright;
+  .absolute;
+  .white;
+  .fs(4.8rem,100%,700);
+  .fw(700);
+  top: 8rem;
+  right: 5rem;
+  padding: 1.5rem 2rem;
+  max-width: 92%;
+
+}
+.region-banner .views-row-4 .field-name-field-descripcion {
+  .amarillo;
+  .white;
+  .fs(1.6rem,100%);
+  .tright;
+  .absolute;
+  top: 17rem;
+  right: 5rem;
+  padding: 1.5rem 2rem;
+  max-width: 92%;
+
+}
+
+//MENÚ CARVAL
+
+.region-menu-principal > ul li a {
+  .white;
+  .br;
+  .fs(1.6rem, 5rem, 700);
+  height: 5rem;
+  .tcenter;
+  width: 100%;
+  .left;
+}
+
+.region-menu-principal > ul > li:nth-of-type(1) a {
+  .azul(1);
+}
+.region-menu-principal > ul > li:nth-of-type(2) a, .region-menu-principal > ul > li:nth-of-type(4) a {
+  .amarillo(1);
+}
+.region-menu-principal > ul > li:nth-of-type(3) a  {
+  .verde-dark(1);
+}
+
+.front .region-menu-principal ul.menu {
+  width: 100%;
+  & li {
+    width: 22.7%;
+    float: left;
+    margin: 0 1rem 0 1rem;
+    position: relative;
+  }
+}
+.front .region-menu-principal ul.menu > li:nth-of-type(1) {
+  width: 22.7%;
+  float: left;
+  margin: 0 1rem 0 2.2rem;
+  position: relative;
+}
+
+.front .region-menu-principal ul.menu > li > ul.menu {
+  .br-custom(.5rem, .5rem, 0, 0);
+  bottom: 4.3rem;
+  left: 0;
+  .absolute;
+  width: 100%;
+  .none;
+  background: white;
+  padding: 2rem 1rem 2rem;
+  .z(1);
+  & li { width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    & a {.relative;
+      height: 2rem;
+      color: @gris-light1;
+      .fs(1.4rem, 2rem, 400);
+      width: 100%;
+      .br(0);
+      .centrado(0,.5rem);
+      .tleft;
+      background: white;
+      text-indent: 1.8rem;
+    }
+  }
+}
+
+
+
+.region-menu-principal ul.menu > li > ul.menu > li > a::before {
+  content: "\f105";
+  .icono;
+  .absolute;
+  left: -1rem;
+  top: 0rem;
+  .z(99);
+  .c-verde;
+  .fs(1.4rem, 2rem, 700);
+}
+
+.region-menu-principal ul.menu > li > ul.menu > li > a:hover {
+  .azul(.3);
+}
+
+
+.front .region-menu-principal ul.menu li:nth-of-type(1) ul.menu::before {
+  width: 0;
+  height: 0;
+  border-bottom: 1rem solid @azul;
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+  .absolute;
+  content: '';
+  .z(9999);
+  bottom: 0;
+  left: 50%;
+  margin: 0 0 0 -.5rem;
+}
+
+.front .region-menu-principal ul.menu li:nth-of-type(2) ul.menu::before, .front .region-menu-principal ul.menu li:nth-of-type(4) ul.menu::before {
+  width: 0;
+  height: 0;
+  border-bottom: 1rem solid @amarillo;
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+  .absolute;
+  content: '';
+  .z(9999);
+  bottom: 0;
+  left: 50%;
+  margin: 0 0 0 -.5rem;
+}
+
+
+.front .region-menu-principal ul.menu li:nth-of-type(3) ul.menu::before {
+  width: 0;
+  height: 0;
+  border-bottom: 1rem solid @verde-dark;
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+  .absolute;
+  content: '';
+  .z(9999);
+  bottom: 0;
+  left: 50%;
+  margin: 0 0 0 -.5rem;
+}
+
+
+
+//DESTACADOS HOME
+
+
+.modulo-laboratorio-animed {
+  .transition;
+  background: @gris-light3;
+  .borde;
+  height: 24.5rem;
+  overflow: hidden;
+  padding: 1.5rem;
+  .br;
+  .left;
+  .relative;
+  width: 49%;
+  .left;
+  margin: 2.5rem 0 1rem 0;
+  .pointer;
+  color: @gris-light1;
+}
+
+.modulo-laboratorio-animed .field-name-field-titulo {
+
+  .fs(3rem, 2.6rem, 700);
+  height: 5.7rem;
+  padding: .5rem 0 0 6.7rem;
+
+  margin: 0 0 1rem;
+  .relative;
+  color: @gris-light1;
+    .right;
+  width: 48%;
+
+}
+
+.modulo-laboratorio-animed .field-name-field-titulo::before {
+  content: '';
+  top: 0;
+  left: 0;
+  width: 5.7rem;
+  height: 5.7rem;
+  .br(50%);
+  .absolute;
+  background: @gris-light2 url("../img/sprite.png") 1.2rem .8rem no-repeat;
+}
+
+.modulo-laboratorio-animed .field-name-field-subtitulo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  .fs(1.8rem, 100%, 700);
+  margin: .5rem 0 1rem;
+  .right;
+  width: 48%;
+  color: @gris-light1;
+}
+
+.modulo-laboratorio-animed .field-name-field-descripcion-historia {
+  .fs(1.6rem, 120%, 400);
+  margin: 0 0 1.5rem;
+  color: #959595;
+  .right;
+  width: 48%;
+}
+
+.modulo-laboratorio-animed .field-name-field-imagen {
+  .borde(@gris-light1);
+  .br;
+  height: 21rem;
+  .relative;
+  .left;
+  overflow: hidden;
+  width: 48%;
+}
+
+.modulo-laboratorio-animed .field-name-field-imagen img {
+  .100;
+}
+
+.modulo-laboratorio-animed a, .modulo-noticias-home a {
+  .absolute;
+  bottom: 1rem;
+  right: 2rem;
+  .c-verde(1);
+  .fs(1.6rem, 100%, 400);
+  padding: 0 2rem 0 0;
+  &:hover{}
+}
+
+
+.modulo-laboratorio-animed a::before, .modulo-noticias-home a::before {
+  content: "\f105";
+  .icono;
+  .absolute;
+  right: 0rem;
+  top: .35rem;
+  .z(99);
+  .c-verde;
+  .fs(1.6rem, 1rem, 700);
+  border-left: .2rem solid @gris-light2;
+  height: 1rem;
+  padding: 0 0 0 .5rem;
+
+}
+
+
+.modulo-noticias-home {
+  .transition;
+  background: @gris-light3;
+  .borde;
+  height: 24.5rem;
+  overflow: hidden;
+  padding: 1.5rem;
+  .br;
+  .left;
+  .relative;
+  width: 49%;
+  .right;
+  margin: 2.5rem 0 1rem 0;
+  .pointer;
+  color: @gris-light1;}
+
+
+
+.modulo-noticias-home .field-name-titulo-home-noticias  {
+
+  .fs(3rem, 2.6rem, 700);
+  height: 5.7rem;
+  padding: .5rem 0 0 6.7rem;
+//  width: 25rem;
+  margin: 0 0 1rem;
+  width: 48%;
+  .relative;
+  .right;
+}
+
+.modulo-noticias-home .field-name-titulo-home-noticias h2 { .fs(3rem, 5rem, 700);}
+
+.modulo-noticias-home .field-name-titulo-home-noticias::before {
+  content: '';
+  top: 0;
+  left: 0;
+  width: 5.7rem;
+  height: 5.7rem;
+  .br(50%);
+  .absolute;
+  background: @gris-light2 url("../img/sprite.png") 1.2rem -6.2rem no-repeat;
+}
+
+.modulo-noticias-home  .field-name-field-imagen {
+  .borde(@gris-light1);
+  .br;
+  height: 21rem;
+  .relative;
+  .left;
+  overflow: hidden;
+  width: 48%;
+}
+
+.modulo-noticias-home  .field-name-field-imagen img {
+.100;
+}
+
+.modulo-noticias-home .field-name-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  .fs(1.8rem, 100%, 700);
+  margin: .5rem 0 1rem;
+  .right;
+  width: 48%;
+
+}
+
+
+.modulo-noticias-home .field-name-field-descripcion {
+  .fs(1.6rem, 120%, 400);
+  margin: 0 0 1.5rem;
+  color: #959595;
+  .right;
+  width: 48%;
+}
+
+//PUBLICIDAD
+
+.publicidad-home {
+  .100;
+  height: 10.5rem;
+  overflow: hidden;
+  margin: 2rem 0 1.5rem;
+  .left;
+  .relative;
+  .clear;
+}
+
+.publicidad-home .views-field-field-imagen-fondo-publicidad {.absolute;
+  .z(9);
+  .100;
+  height: 8.5rem;
+  bottom: 0;
+}
+
+.publicidad-home .views-field-field-imagen-fondo-publicidad img {
+  .100;
+}
+
+.publicidad-home .views-field-field-image {
+  .relative;
+  float: left;
+  width: 20rem;
+  height: 10.5rem;
+  margin: 1rem 0 0 2rem;
+  .z(99);
+}
+.publicidad-home .views-field-field-image img {
+  .100;
+  min-height: 100%;
+}
+
+.publicidad-home .views-field-field-descripcion-2  {
+  .relative;
+  width: 70%;
+  color: #fff;
+  .fs(1.8, 100%, 400);
+  .tcenter;
+  padding: 0 0 0rem;
+  .absolute;
+  top: 3rem;
+  right: 4rem;
+  .z(99);
+
+}
+.publicidad-home .views-field-field-descripcion-2 strong {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.publicidad-home .views-field-field-enlace-publicidad {
+  .relative;
+  height: 10.5rem;
+  .block;
+  .z(9999);
+}
+
+.publicidad-home .views-field-field-enlace-publicidad a {height: 10.5rem;
+  .block;
+  min-height: 10.5rem;
+  .100;
+  .z(9999);
+  text-indent: -99rem;
+}
+
+//FOOTER
+
+
+
+footer {
+  .relative;
+  background: url("../img/bg_footer.png") center 2.4rem repeat-x;
+  .centrado(2rem, 0);
+  .clear;
+  padding: 0 0 .5rem;
+  height: 16rem;
+}
+footer .separador {
+  background: url("../img/bg_franja.png") 0 0 repeat-x;
+  .centrado;
+  height: 2rem;
+}
+.zone-footer {
+  .centrado(2.6rem, 0);
+  max-width: 117rem;
+  .relative;
+
+}
+.region-footer-logo {
+  width: 54%;
+  .left;
+  height: 7rem;
+  margin: 3rem 0 0;
+  .tright;
+  border-right: 0.2rem solid #027082;
+
+}
+.region-footer-logo img {
+  width: 25.2rem;
+  height: 5.5rem;
+  margin: .7rem 2rem 0 0;
+}
+.region-footer-menu {
+  width: 44%;
+  .right;
+  height: 7.5rem;
+  margin: 2.5rem 0 0;
+}
+.region-footer-menu .block-title {
+  display: none;
+}
+.region-footer-menu ul.menu {
+  margin: 0;
+  padding: 0;
+  li{
+    a {.white;
+      .fs(1.4rem, 100%, 400);
+      padding: 0 0 .5rem 0rem;
+      .relative;
+    }
+  }
+}
+
+
+.region-footer-menu ul.menu li a::before {
+  content: "\f105";
+  .icono;
+  .absolute;
+  left: -1rem;
+  top: 0rem;
+  .z(99);
+  .white;
+  .fs(1.4rem, 100%, 100);
+  .z(999);
+}
+
+
+.region-footer-copy {
+  width: 49%;
+  .left;
+  margin: 1.5rem 0 0 1%;
+}
+.region-footer-copy .views-field-field-descripcion {
+  .white;
+  .left;
+  .fs(1.2rem, 100%, 400);
+}
+.region-footer-copy .views-field-field-descripcion strong {
+  .c-azul;
+  .fw(700);
+}
+.region-footer-ahorranito {
+  width: 49%;
+  .right;
+  margin: 1.5rem 1% 0 0;
+}
+//.region-footer-ahorranito .block-title, .region-footer-copy .block-title {
+//  .none;
+//}
+
+.footer-autor {
+  .right;
+  height: 2.2rem;
+  margin: -0.5rem 0 0;
+  .fs;
+}
+.footer-autor #ahorranito2 {
+  background: url("http://www.imaginamos.com/derechos_autor_gris/ahorranito-2.png") no-repeat scroll 0 0 transparent;
+  .block;
+  .left;
+  height: 2.2rem;
+  margin: 0 .3rem 0;
+  width: 2.1rem;
+}
+.derechos span {
+  color: @azul;
+  .fw(700);
+}
+.footer-autor a {
+  .white;
+  .left;
+  .fs(1.2rem, 2.2rem, 400);
+}
+.footer-autor a span {
+  .c-azul;
+  .fw(400);
+}
+
+
+
+//MENÚ SOMOS CARVAL
+
+
+.not-front .region-menu-principal ul.menu {
+  width: 100%;
+  & li {
+    width: 22.7%;
+    float: left;
+    margin: 0 3.5rem 0 0;
+    position: relative;
+  }
+}
+.not-front .region-menu-principal ul.menu > li:nth-of-type(4) {
+  width: 22.7%;
+  float: left;
+  margin: 0 0rem 0 0;
+  position: relative;
+}
+
+
+.not-front .region-menu-principal ul.menu > li > ul.menu {
+  .br-custom(0rem, 0rem, .5rem, .5rem);
+  top: 4.3rem;
+  left: 0;
+  width: 100%;
+  .none;
+  .absolute;
+  background: white;
+  padding: 2rem 1rem 2rem;
+  .z(9999);
+  li { width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    a {.relative;
+      height: 2rem;
+      color: @gris-light1;
+      .fs(1.4rem, 2rem, 400);
+      width: 100%;
+      .br(0);
+      .centrado(0rem,.5rem);
+      .block;
+      .tleft;
+      background: white;
+      text-indent: 1.8rem;
+    }
+  }
+}
+
+
+
+.not-front .region-menu-principal ul.menu > li > ul.menu > li > a::before {
+  content: "\f105";
+  .icono;
+  .absolute;
+  left: -1rem;
+  top: 0rem;
+  .z(99);
+  .c-verde;
+  .fs(1.4rem, 2rem, 700);
+}
+
+.region-menu-principal ul.menu > li > ul.menu > li > a:hover {
+  .azul(.3);
+}
+
+
+.not-front .region-menu-principal ul.menu li:nth-of-type(1) ul.menu::before {
+  width: 0;
+  height: 0;
+  border-bottom: 1rem solid @azul;
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+  .absolute;
+  content: '';
+  .z(9999);
+  top: 0;
+  left: 50%;
+  margin: 0 0 0 -.5rem;
+  .rotate;
+
+}
+
+.not-front .region-menu-principal ul.menu li:nth-of-type(2) ul.menu::before, .not-front .region-menu-principal ul.menu li:nth-of-type(4) ul.menu::before {
+  width: 0;
+  height: 0;
+  border-bottom: 1rem solid @amarillo;
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+  .absolute;
+  content: '';
+  .z(9999);
+  top: 0;
+  left: 50%;
+  margin: 0 0 0 -.5rem;
+   .rotate;
+}
+
+
+.not-front .region-menu-principal ul.menu li:nth-of-type(3) ul.menu::before {
+  width: 0;
+  height: 0;
+  border-bottom: 1rem solid @verde-dark;
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+  .absolute;
+  content: '';
+  .z(9999);
+  top: 0;
+  left: 50%;
+  margin: 0 0 0 -.5rem;
+   .rotate;
+}
+
+
+//BREADCRUMS
+
+
+.easy-breadcrumb {
+ margin: 1rem 0 0rem 0rem;
+ padding: 0 0 .5rem;
+  .clearfix;
+}
+.easy-breadcrumb a {
+ .left;
+ .c-verde;
+.fs(1.4rem, 100%, 700);
+ padding: -.1rem 0 0;
+}
+.easy-breadcrumb a:hover {
+ .c-verde-dark;
+}
+.easy-breadcrumb span {
+ .left;
+ color: @gris;
+ .fs(1.4rem, 100%, 700);
+}
+.easy-breadcrumb_segment-separator {
+ width: .7rem;
+ margin: .5rem .5rem 0 .4rem;
+ height: .7rem;
+ .block;
+.br(50%);
+ background:@gris-dark1;
+ .borde(white);
+}
+
+
+//TITULO SECCION
+
+.region-content-top .titulo-seccion{
+  .cero;
+}
+
+.page-eform-submit-trabaja-con-nosotros .region-content-top .titulo-seccion{
+ .cero;
+}
+
+
+.titulo-seccion .view-content .item-list ul,
+.titulo-seccion .view-content .item-list ul li
+{
+  .cero;
+}
+
+
+
+
+
+
+
+
+
+
+
+//SOMOS CARVAL
+
+.node-type-somoscarval .views-field-field-titulo-6, .node-type-somoscarval .views-field-field-subtitulo-3 {margin: 1.5rem 0;}
+
+.carrusel-marcas {
+.left;
+.100;
+.clear;
+  .relative;
+}
+
+
+
+
+.vco-storyjs h2.date {
+  color: @gris-light1;
+.fs(1.6rem, 100%, 400);
+  margin: 0 0 1.5rem;
+
+}
+
+
+
+.vco-timeline .vco-navigation .timenav .content .marker .flag .flag-content h3, .vco-timeline .vco-navigation .timenav .content .marker .flag-small .flag-content h3 {
+  .fs(1.4rem, 100%, 400);
+  color: @gris-light1;
+
+}
+
+.linea-tiempo {
+.clearfix;
+margin: 1rem 0 0;
+}
+
+
+.cajas {.left;
+margin: 0rem 0 0;
+}
+
+
+
+
+.cont_expandecaja {
+  .gradient;
+  bottom: 0;
+  height: 7rem;
+  left: 0;
+  .absolute;
+  .tcenter;
+  width: 100%;
+  .z(999);
+}
+
+
+
+
+
+
+
+.cajas .views-row {
+
+ margin: 0 0 1rem;
+ width: 49.5%;
+ overflow: hidden;
+.relative;
+ .borde(@gris-light1);
+  height: 32rem;
+
+
+
+}
+.cajas .view-content {}
+
+.cajas .views-row-even {.right; clear: right;}
+.cajas .views-row-odd {.left; clear: left;}
+
+
+.cajas .views-field-field-descripcion,
+.cajas .field-name-field-descripcion,
+{
+  color: @gris;
+  .fs();
+  margin: 0;
+  padding: 0 1rem 2rem;
+
+
+}
+
+
+.cajas .views-field-field-imagen,
+.cajas .field-name-field-imagen,
+.cajas .field-name-field-video,
+.cajas .field-name-field-video .embedded-video
+ {
+
+
+}
+
+.views-field.views-field-field-video,
+.embedded-video {
+ .cero;
+}
+
+.cajas .views-field-field-video {
+.tcenter;}
+
+.node-type-somoscarval .cajas .views-field-field-video iframe,
+.page-somos-carval .cajas .embedded-video iframe,
+.cajas .field-name-field-video iframe,
+.cajas .views-field-field-video iframe
+{
+ height: 19rem;
+ width: 60%;
+ z-index: 10;
+  padding: 0 0 1rem;
+  .centrado;
+}
+
+
+.cajas .views-field-field-imagen img,
+.cajas .field-name-field-imagen img
+ {
+  .100;
+ height: 18rem;
+}
+
+.page-somos-carval-nuestro-compromiso .views-field-field-imagen {
+.left;
+width: 49.5%;
+margin: 0 2rem 0 0;
+}
+
+.page-somos-carval-carval-mundo .view-mapa {width: 49.5%;
+margin: 0 2rem 0 0;
+  .borde;
+.left;}
+
+.page-somos-carval-experiencia-carval iframe {.left;
+margin: 0 2rem 0 0;}
+
+.page-somos-carval-experiencia-carval .views-field-field-subtitulo-5 {margin: 1.5rem 0 0;
+.clearfix;}
+
+
+.page-somos-carval-nuestro-compromiso .views-field-field-imagen img {.100;}
+
+
+.view-somos-carval .views-field-field-t-tulo-historia, .view-somos-carval .views-field-field-subtitulo {margin: 0 0 1rem;
+}
+
+
+
+.carrusel-marcas .bxslider_views_slideshow_main .views-slideshow-bxslider .field-name-field-image { height: 14.5rem;
+.transition;
+.borde;
+}
+
+.carrusel-marcas .bxslider_views_slideshow_main .views-slideshow-bxslider .field-name-field-image:hover {
+.borde(@gris-dark1);
+}
+
+
+.carrusel-marcas .bxslider_views_slideshow_main .views-slideshow-bxslider .field-name-field-image img {.100;
+min-height: 100%;
+max-height: 100%;
+
+}
+
+
+
+
+
+.carrusel-experiencias .bxslider_views_slideshow_main .views-slideshow-bxslider li .field-name-field-imagen { height: 14.5rem;
+  .transition;
+.borde;
+}
+
+.carrusel-experiencias .bxslider_views_slideshow_main .views-slideshow-bxslider li .field-name-field-imagen:hover {
+.borde(@gris-dark1);
+}
+
+
+.carrusel-experiencias .bxslider_views_slideshow_main .views-slideshow-bxslider li .field-name-field-imagen img {.100;
+min-height: 100%;
+max-height: 100%;
+}
+
+
+.carrusel-experiencias .bxslider_views_slideshow_main .views-slideshow-bxslider li .field-name-field-video { height: 14.5rem;
+  .transition;
+.borde;
+  margin: 0 0 1rem;
+}
+
+
+.carrusel-experiencias .bxslider_views_slideshow_main .views-slideshow-bxslider li .field-name-field-video:hover {
+.borde(@gris-dark1);
+}
+
+
+.carrusel-experiencias .bxslider_views_slideshow_main .views-slideshow-bxslider li .field-name-field-video img {.100;
+min-height: 100%;
+max-height: 100%;
+}
+
+
+
+
+
+.carrusel-experiencias {
+.clearfix;
+margin: 0 0 3rem;
+}
+
+.page-somos-carval-nuestro-compromiso .views-field-field-subtitulo-4 {margin: 1.5rem 0 0;
+.clearfix;}
+
+
+
+.bx-wrapper img {
+ width: 100%;
+ height: 14.5rem;
+}
+
+.bx-wrapper iframe {
+ width: 100%;
+ height: 14.5rem;
+}
+
+
+.page-somos-carval-carval-mundo .views-field-field-descripcion-carval-mundo {margin: 0 0  1.5rem;}
+
+
+.page-somos-carval-carval-mundo .views-field-field-subtitulo-6 {
+  .clearfix;
+  margin: 1.5rem 0 0;}
+
+.page-somos-carval-nuestra-gente .views-field-field-enlace {
+    margin: 0 0 4rem;
+  .clearfix;
+
+}
+
+.page-somos-carval-nuestra-gente .views-field-field-descripcion-6 {.clearfix;}
+
+.page-somos-carval-nuestra-gente .views-field-field-enlace a {.br;
+.verde;
+.white;
+  .fs(1.4rem, 3rem, 400);
+  height: 3rem;
+  padding: 0 1rem;
+  .right;
+  margin: 0 0 0rem 0;
+  .clear;
+  &:hover {
+  .amarillo;
+  }
+}
+
+.node-type-divisiones-de-negocio .field-name-field-subtitulo-2 {.clearfix;
+margin: 1.5rem 0;}
+
+
+.node-type-tipos-productos .cajas form select {
+  .relative;
+  .left;
+  background: @gris-light3;
+  border: thin solid @gris-light2;
+  .transition(.5s);
+  height: 3.6rem;
+  width: 20rem;
+  .fs(1.4rem, 3.6rem, 400);
+  .cero;
+
+  color: @gris-dark1;
+  text-indent: 1rem;
+  margin: 0 2rem 0 0;
+  &:focus {
+    background: @gris-light4;
+    border: thin solid @gris-light2;
+  }
+
+}
+
+
+
+
+.node-type-tipos-productos .cajas form  input[type="text"] {
+  .relative;
+  .left;
+  background: @gris-light3;
+  border: thin solid @gris-light2;
+  .transition(.5s);
+  height: 3.6rem;
+  width: 30rem;
+  .fs(1.4rem, 3.6rem, 400);
+  .cero;
+  color: @gris-dark1;
+  text-indent: 1rem;
+  &:focus {
+    background: @gris-light4;
+    border: thin solid @gris-light2;
+  }
+}
+
+
+
+
+.node-type-tipos-productos .cajas form  .views-submit-button {
+ .verde(1);
+  .relative;
+  height: 3.6rem;
+  width: 3.6rem;
+ padding: 0;
+  margin: 0 0 0 -4rem;
+//  .transition;
+//  top: 0;
+//  margin: 0;
+//   .b2;
+//   .z(9);
+//  &:focus {
+//    .verde(.8);
+//  }
+//
+}
+
+.node-type-tipos-productos .cajas form  .views-submit-button::before {
+//  content: "\f002";
+//  .icono;
+//  .absolute;
+//  .tcenter;
+//  right: 1rem;
+//  top: 1rem;
+//  .z(99);
+//  .white;
+//  .fs(1.4rem, 100%, 100);
+  .b1;
+}
+.node-type-tipos-productos .cajas form  .form-submit {
+  cursor: pointer;
+.relative;
+   .z(99999);
+  .cero;
+   height: 3.6rem;
+  width: 3.6rem;
+  .fondo(transparent);
+  text-indent: -999rem;
+}
+
+.views-exposed-form .views-exposed-widget {.cero;}
+
+.node-type-tipos-productos .region-content-bottom .cajas .views-field-field-video {.none;}
+
+
+.node-type-tipos-productos .cajas .views-field-field-tags-producto { .cero;
+margin: 1rem 1rem 1rem 0;
+width: 54%;
+  .right;
+}
+
+.node-type-tipos-productos .cajas .views-field-field-descripcion {margin: 1rem 0 0;
+
+}
+
+
+.node-type-tipos-productos .cajas .views-field-field-tags-producto ul {
+.cero;}
+
+.node-type-tipos-productos .cajas .views-field-field-tags-producto li {
+float: left;
+  margin: 0 .5rem 0;
+}
+
+.node-type-tipos-productos .cajas .views-field-field-tags-producto li:nth-of-type(odd) a {color: @verde;
+  .fs(1.6rem, 100%, 700);
+&:hover{
+color: @verde-dark;
+}
+
+}
+
+.node-type-tipos-productos .cajas .views-field-field-tags-producto li:nth-of-type(even) a {color: @verde-dark;
+  .fs(1.6rem, 100%, 700);
+&:hover{
+color: @verde;
+}
+
+}
+
+ .node-type-proyectos .field-name-field-subtitulo, .node-type-responsabilidad-corporativa .field-name-field-subtitulo-2 {.clearfix;
+ }
+
+
+.node-type-eventos .field-name-field-video, .node-type-somoscarval .views-field-field-video {
+ width: 49%;
+ z-index: 10;
+
+ margin: 0 2rem 0 0;
+  .left;
+}
+
+
+
+.node-type-eventos .field-name-field-video iframe, .node-type-somoscarval .views-field-field-video iframe {
+
+width: 100%;
+}
+
+.node-type-tipos-productos .cajas .views-field-field-imagen {
+
+width: 40%;
+  margin: 1rem;
+  height: 20rem;
+  .left;
+}
+
+.node-type-tipos-productos .cajas .views-field-field-imagen img {.100;  min-height: 100%;}
+
+
+
+
+.cajas .field-name-field-video {.tcenter;}
+
+
+.node-type-eventos .views-slideshow-bxslider .field-name-field-titulo {.clearfix;
+
+}
+
+.node-type-eventos .views-slideshow-bxslider .field-name-field-descripcion {.clearfix;
+
+}
+
+
+.node-type-eventos .views-slideshow-bxslider .field-name-field-video {
+.clearfix;
+padding: 0 0 1rem;
+}
+
+.node-type-eventos .views-slideshow-bxslider .field-name-field-video {
+.clearfix;
+padding: 0 0 1rem;
+}
+
+
+.node-type-eventos .field-collection-item-field-galeria-eventos  .field-name-field-titulo  {
+
+font-size: 1.7rem;
+font-weight: 400;
+}
+
+.node-type-eventos .region-content  .field-name-field-titulo  {
+
+  .clearfix;
+  margin: 1.5rem 0;
+}
+
+
+
+.node-type-eventos  .region-content-bottom .field-collection-item-field-galeria-eventos .field-name-field-descripcion {
+
+
+}
+
+
+.node-type-eventos .region-content-bottom .views-field-title {.amarillo;}
+
+
+
+.node-type-home .easy-breadcrumb {.none;}
+
+ul.pager {.clearfix;
+.tcenter;}
+
+
+ul.pager li.pager-current {
+ .amarillo;
+padding: .8rem 1.1rem;
+  .fs(1.2rem, 3rem, 700);
+   min-width: 30px;
+ min-height: 30px;
+  max-width: 30px;
+ max-height: 30px;
+  width: 30px;
+ height: 30px;
+  .white;
+  display: inline;
+}
+
+ul.pager li.pager-item a {
+.verde;
+ min-width: 30px;
+ min-height: 30px;
+  max-width: 30px;
+ max-height: 30px;
+  width: 30px;
+ height: 30px;
+   .cero;
+  .fs(1.2rem, 3rem, 700);
+  .white;
+  display: inline-block;
+  &:hover{
+  .amarillo(1);
+
+
+  }
+}
+ul.pager li.pager-item a {
+
+}
+ul.pager li.pager-next {
+  .none;
+}
+ul.pager li.pager-last {
+    .none;
+
+}
+ul.pager li.pager-first {
+    .none;
+}
+ul.pager li.pager-previous {
+    .none;
+}
+
+ul.pager li.pager-item {.cero;
+}
+
+.item-list .pager {
+  clear: both;
+  text-align: center;
+}
+.item-list .pager li {
+  background-image: none;
+  display: inline;
+  list-style-type: none;
+
+}
+.pager-current {
+//  font-weight: bold;
+}
+
+
+.node-type-divisiones-de-negocio .region-content-top .bloque-titulo {margin: 1.5rem 0;}
+
+
+.node-type-eventos .views-field-field-titulo-2  {margin: 1.5rem 0;}
+
+
+.field-collection-item-field-certifiaciones .field-name-field-descripcion  a {
+}
+
+.field-collection-item-field-sedes img {.100;
+}
+
+.node-type-tipos-productos .region-content-top {margin-bottom: 2rem;}
+
+.view-productos-y-servicios .view-filters {margin-bottom: 2rem;}
+
+.node-type-proyectos .field-name-field-subtitulo {margin: 1.5rem 0;
+}
+
+
+.node-tipos-productos .field-name-field-titulo-2 {.clearfix;
+  .fs(1.6rem, 100%, 700);
+
+}
+
+
+.node-tipos-productos .field-name-field-informaci-n-buscador {.clearfix;
+  .fs(1.4rem, 110%, 400);
+}
+
+.node-tipos-productos .field-name-field-titulo-2 {margin: 1.5rem 0;}
+
+
+
+.bx-controls {clear: both;
+float: left;
+  position: absolute;
+  top: -30px;
+  right: 0;
+  height: 25px;
+
+width: 100%;}
+
+
+
+.bx-controls-direction {
+  display: inline-block;
+  height: 25px;
+  position: absolute;
+  right: 0;
+  top: 0px;
+
+
+}
+
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width:25px;
+  height: 25px;
+   text-indent: -9999px;
+
+}
+
+.bx-wrapper .bx-controls-direction a{
+  top:0;
+   text-indent: -9999px;
+}
+
+.bx-wrapper .bx-controls-direction a {
+
+  border: none;
+  height: 25px;
+  margin: 0;
+  top: 0px;
+  position: absolute;
+  width:25px;
+  text-indent: -9999px;
+
+
+}
+
+.bx-wrapper .bx-controls-direction a:hover{
+
+}
+
+.bx-wrapper .bx-controls-direction a.bx-prev{
+  background-image: url(../img/b1.jpg);
+  right: 60px;
+}
+
+.bx-wrapper .bx-controls-direction a.bx-next{
+  background-image: url(../img/b2.jpg);
+  right: 0px;
+}
+
+
+
+.bx-wrapper .bx-controls-auto .bx-stop, .bx-wrapper .bx-controls-auto .bx-start{
+   background-image: url(../img/b3.jpg);
+  border: none;
+   height: 25px;
+  width: 25px;
+  position: absolute;
+
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop{
+right: 30px;
+  background-image: url(../img/b4.jpg);
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop:hover, .bx-wrapper .bx-controls-auto .bx-stop.active{
+
+}
+
+.bx-wrapper .bx-controls-auto .bx-start{
+right: 30px;
+ background-image: url(../img/b3.jpg);
+}
+
+.bx-wrapper .bx-controls-auto .bx-start:hover, .bx-wrapper .bx-controls-auto .bx-start.active{
+
+}
+
+
+
+.bx-wrapper img {
+ width: 100%;
+ height: 20rem;
+}
+
+.bx-wrapper iframe {
+ width: 100%;
+ height: 20rem;
+}
+
+
+.node-type-divisiones-de-negocio .cajas .fecha-noticias {.absolute;
+top: 22.5rem;
+  right: 1rem;
+  color: @gris-dark2;
+  .fs(1.2rem, 100%, 400);
+  .tright;
+}
+
+
+.views-field-created { color: @gris-dark2;
+  .fs(1.2rem, 100%, 400);
+    .tright;
+}
+
+.node-type-divisiones-de-negocio .cajas  .field-name-field-descripcion {margin-top:  3rem;
+.clearfix;}
+
+.cajas .views-row {}
+
+
+.node-type-tipos-productos .view-productos-y-servicios .views-exposed-widgets  {
+  .relative;
+  padding: 0rem 0 0;
+  .left;
+  min-width: 66.2rem;
+}
+
+.label-buscador1 {
+.absolute;
+  top: 0;
+  left: 0;
+z-index:  9999999;
+font-size: 1.6rem;
+line-height: 100%;
+font-weight: 700;}
+
+.label-buscador2 {
+.absolute;
+  top: 0;
+  left: 22rem;
+z-index:  9999999;
+font-size: 1.6rem;
+line-height: 100%;
+font-weight: 700;
+}
+
+.label-buscador3 {
+.absolute;
+  top: 0;
+   left: 44rem;
+z-index:  9999999;
+  font-size: 1.6rem;
+line-height: 100%;
+font-weight: 700;
+}
+
+ .modulo-noticias-home .field-name-titulo-home-noticias h2 { color: #959595;}
+
+.field-slideshow-slide, .field-slideshow-slide a, .field-slideshow-slide img {.100;}
+
+.page-somos-carval-carval-mundo .field-slideshow-slide {
+
+  min-height: 30rem;
+  max-height: 30rem;
+  height: 30rem;
+}
+
+
+
+
+ .page-somos-carval-carval-mundo .field-slideshow-slide img {  min-height: 100%;
+  max-height: 100%;
+  height: 100%;}
+
+  .node-type-eventos .views-slideshow-bxslider .field-name-field-video,  .node-type-eventos .views-slideshow-bxslider .field-type-image {height: 14rem;
+}
+
+   .node-type-eventos .views-slideshow-bxslider .field-name-field-video img, .node-type-eventos .views-slideshow-bxslider .field-type-image img  {height: 100%;
+  }
+
+.page-user #user-login input[type=text], .page-user #user-login input[type=password] {
+height: 3.5rem;
+border: thin solid @verde-dark;
+box-shadow: 0 0 0px 100rem #f9f9f9 inset;
+  padding: 1rem;
+}
+
+.node-type-eventos .field-collection-item-field-galeria-eventos .field-name-field-titulo {.clearfix;
+}
+
+.node-type-eventos  .field-collection-item-field-galeria-eventos .field-name-field-video { height: 16rem;
+  margin: 0 0 1rem;
+}
+.node-type-eventos  .field-collection-item-field-galeria-eventos .field-name-field-video img { height: 16rem;
+}
+
+.node-type-eventos  .field-collection-item-field-galeria-eventos .field-name-field-imagen { height: 16rem;}
+.node-type-eventos  .field-collection-item-field-galeria-eventos .field-name-field-imagen img { height: 16rem;}
+
+
+.node-type-eventos  .field-collection-item-field-galeria-eventos .field-name-field-descripcion {.fs(1.4rem, 100%, 400); color: @gris;}
+
+
+
+
+
+
+
