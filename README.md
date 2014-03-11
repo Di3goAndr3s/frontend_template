@@ -1,7 +1,4 @@
 Front-end-Template
 ==================
 
-Start Kit for front end designers
-
-
-yeoman-generator
+Start Kit for front end designers 
