@@ -1,25 +1,45 @@
 {
   "name": "generator-imaginamos",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "generador yaoman imaginamos",
-  "main": "index.js",
-  "scripts": {
-    "test": "mitest"
-  },
+  "keywords": [
+      "imaginamos",
+    "yeoman-generator"
+  ],
+  "main": "app/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Di3goAndr3s/frontend_template.git"
   },
-  "keywords": [
-    "imaginamos",
-    "less",
-    "bootstrap",
-    "yeoman-generator"
-  ],
-  "author": "Diego",
-  "license": "GPL",
-  "bugs": {
-    "url": "https://github.com/Di3goAndr3s/frontend_template/issues"
+  "homepage": "https://github.com/Di3goAndr3s/frontend_template",
+  "bugs": "https://github.com/Di3goAndr3s/frontend_template/issues",
+  "scripts": {
+    "test": "mocha"
   },
-  "homepage": "https://github.com/Di3goAndr3s/frontend_template"
+  "author": {
+    "name": "Diego Andrés Velásquez",
+    "email": "diego@imaginamos.co",
+    "url": "https://github.com/Di3goAndr3s"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.14.0",
+    "chalk": "~0.3.0",
+    "octonode": "0.4.1",
+    "q": "~0.9.7"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "GPL"
+    }
+  ]
 }
