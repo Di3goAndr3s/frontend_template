@@ -1,6 +1,6 @@
 {
   "name": "generator-imaginamos",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "generador yaoman imaginamos",
   "main": "index.js",
   "scripts": {
